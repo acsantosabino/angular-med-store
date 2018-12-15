@@ -82,7 +82,7 @@ Carrinho de compras
 Lista vertical de itens de compra  
 
 
-OUTROS - FANNY  
+A COMPRA - FANNY  
 ----------------------------  
 Item Compra Vertical  
 Produto  
