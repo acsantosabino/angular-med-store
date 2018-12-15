@@ -47,18 +47,15 @@ Loja de EQUIPAMENTOS MÉDICOS E HOSPITALARES.
 * Header
 #### Carrinho de compras
 * Header
-#### Login
-* Header
-#### Cep
-* Header
 #### Relatório de vendas
 * Header
 
 ## Componentes
 * Carrossel de produtos
   * Item Produto Grade
-
-* Indicador de quantidade de produtos em carrinho de compras
+  
+* Header (Contém a identidade visual da página)
+  * Indicador de quantidade de produtos em carrinho de compras
 
 * Carrinho de compras
   * Lista vertical de itens de compra
@@ -76,3 +73,5 @@ Loja de EQUIPAMENTOS MÉDICOS E HOSPITALARES.
 * Menu lateral de categorias
   * Lista em grade produtos
     * Item Produto Grade
+
+* Rodapé
