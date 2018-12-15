@@ -12,15 +12,19 @@ Loja de EQUIPAMENTOS MÉDICOS E HOSPITALARES.
 * Arthur Santos
 * Danillo Guimarães
 * Fanny Rosana Pastor Humpiri
+
 ## Referencias
 * https://www.fibracirurgica.com.br
 * https://www.allformed.com.br/
 * https://www.medlinemedical.pt/pt/Inicio
 * https://www.centermedical.com.br/
 * https://www.hospinet.com.br/
+
 ## Arquitetura aplicada
 * Arquitetura aplicada
+
 ## Fluxo de navegação
-* Identificação da página
+1 - Home => Carrinho de compras => Login => Cep => Exibe relatório de venda
+
 ## Definição das páginas
 * Estrutura da página
