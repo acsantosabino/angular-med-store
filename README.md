@@ -24,11 +24,11 @@ Loja de EQUIPAMENTOS MÉDICOS E HOSPITALARES.
 * Arquitetura aplicada
 
 ## Fluxo de navegação
-* Quando usuário não está logado
+* Quando usuário não está logado  
   Home => Carrinho de compras => Login => Cep => Exibe relatório de venda
-* Quando usuário está logado
+* Quando usuário está logado  
   Home => Carrinho de compras => Login => Cep => Exibe relatório de venda
-* Usuário clica em cancelar
+* Usuário clica em cancelar  
   Sempre que o usuário clicar em cancelar, devemos voltar a tela para a home
 
 ## Definição das páginas
