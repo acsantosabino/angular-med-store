@@ -36,13 +36,13 @@ Loja de EQUIPAMENTOS MÉDICOS E HOSPITALARES.
   Direcionar para a "home"
 
 ## Definição das páginas
-### Home
+#### Home
 * Header
-### Carrinho de compras
+#### Carrinho de compras
 * Header
-### Login
+#### Login
 * Header
-### Cep
+#### Cep
 * Header
-### Relatório de vendas
+#### Relatório de vendas
 * Header
