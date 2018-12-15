@@ -48,3 +48,20 @@ Loja de EQUIPAMENTOS MÉDICOS E HOSPITALARES.
 * Header
 #### Relatório de vendas
 * Header
+
+## Componentes
+* Carrossel de produtos
+  * Item Produto Grade
+
+* Lista em grade produtos
+  * Item Produto Grade
+
+* Indicador de quantidade de produtos em carrinho de compras
+
+* Carrinho de compras
+  * Lista de produtos na vertical (itens do carrinho de compra) 
+    * fdasfasfas
+    * no carrinho com link para o produto adicionado;
+Alteração da quantidade de produtos no carrinho;
+Remoção do produto quando quantidade for igual a zero;
+Confirmação da compra;
