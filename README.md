@@ -29,11 +29,11 @@ Loja de EQUIPAMENTOS MÉDICOS E HOSPITALARES.
 * Quando usuário está logado  
   Home => Carrinho de compras => Cep => Exibe relatório de venda
 * Usuário clica em login  
-  Direcionar para --login--
+  Direcionar para "login"
 * Usuário clica em cancelar  
-  Direcionar para a home
+  Direcionar para a "home"
 * Usuário clica em logoff
-  Direcionar para a home
+  Direcionar para a "home"
 
 ## Definição das páginas
 * Estrutura da página
