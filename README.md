@@ -32,7 +32,7 @@ Loja de EQUIPAMENTOS MÉDICOS E HOSPITALARES.
   Direcionar para "login"
 * Usuário clica em cancelar  
   Direcionar para a "home"
-* Usuário clica em logoff
+* Usuário clica em logoff  
   Direcionar para a "home"
 
 ## Definição das páginas
