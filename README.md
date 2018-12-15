@@ -25,9 +25,9 @@ Loja de EQUIPAMENTOS MÉDICOS E HOSPITALARES.
 
 ## Fluxo de navegação
 * Quando usuário não está logado  
-  Home => Carrinho de compras => Login => Cep => Exibe relatório de venda
+  Home => Carrinho de compras => Login => Cep => Relatório de venda
 * Quando usuário está logado  
-  Home => Carrinho de compras => Cep => Exibe relatório de venda
+  Home => Carrinho de compras => Cep => Relatório de venda
 * Usuário clica em login  
   Direcionar para "login"
 * Usuário clica em cancelar  
@@ -36,4 +36,13 @@ Loja de EQUIPAMENTOS MÉDICOS E HOSPITALARES.
   Direcionar para a "home"
 
 ## Definição das páginas
-* Estrutura da página
+### Home
+* Header
+### Carrinho de compras
+* Header
+### Login
+* Header
+### Cep
+* Header
+### Relatório de vendas
+* Header
