@@ -1,6 +1,6 @@
 # angular-med-store
 Projeto do curso de frontend avançado Especialização em Desenvolvimento Web e Mobile - Full-Stack 2018
-Professor: Daniel Ferreira Monteiro Alves [CV Lattes](http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4130406P8)
+- Professor: Daniel Ferreira Monteiro Alves [CV Lattes](http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4130406P8)
 
 [Especificação do trabalho](https://github.com/danfma/pos-ufg-2018/wiki/Trabalho-final)
 
