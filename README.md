@@ -5,7 +5,7 @@ Projeto do curso de frontend avançado Especialização em Desenvolvimento Web e
 [Especificação do trabalho](https://github.com/danfma/pos-ufg-2018/wiki/Trabalho-final)
 
 ## Frameworks
-* Angular
+* [Angular Cli](https://cli.angular.io/)
 * [Angular Material](https://material.angular.io/)
 
 ## Aplicação
