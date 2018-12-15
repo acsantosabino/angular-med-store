@@ -27,9 +27,13 @@ Loja de EQUIPAMENTOS MÉDICOS E HOSPITALARES.
 * Quando usuário não está logado  
   Home => Carrinho de compras => Login => Cep => Exibe relatório de venda
 * Quando usuário está logado  
-  Home => Carrinho de compras => Login => Cep => Exibe relatório de venda
+  Home => Carrinho de compras => Cep => Exibe relatório de venda
+* Usuário clica em login  
+  Direcionar para --login--
 * Usuário clica em cancelar  
-  Sempre que o usuário clicar em cancelar, devemos voltar a tela para a home
+  Direcionar para a home
+* Usuário clica em logoff
+  Direcionar para a home
 
 ## Definição das páginas
 * Estrutura da página
