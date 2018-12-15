@@ -3,6 +3,10 @@ Projeto do curso de frontend avançado Especialização em Desenvolvimento Web e
 
 [Especificação do trabalho](https://github.com/danfma/pos-ufg-2018/wiki/Trabalho-final)
 
+## Frameworks
+* Angular
+* [Angular Material](https://material.angular.io/)
+
 ## Aplicação
 Loja de EQUIPAMENTOS MÉDICOS E HOSPITALARES.
 
@@ -26,15 +30,16 @@ Loja de EQUIPAMENTOS MÉDICOS E HOSPITALARES.
 * Arquitetura aplicada
 
 ## Fluxo de navegação
-* Quando usuário não está logado  
-  Home => Carrinho de compras => Login => Cep => Relatório de venda
-* Quando usuário está logado  
-  Home => Carrinho de compras => Cep => Relatório de venda
-* Usuário clica em login  
-  Direcionar para "login"
+* Fluxo de navegação
+  Home => Produto => Home  
+  
+* Fluxo de Compra
+  Home => Produto => Carrinho => Confirmação de venda
+  
+* Fluxo de continuação de compras
+  Home => Produto => Carrinho => Home
+  
 * Usuário clica em cancelar  
-  Direcionar para a "home"
-* Usuário clica em logoff  
   Direcionar para a "home"
 
 ## Definição das páginas
@@ -53,15 +58,21 @@ Loja de EQUIPAMENTOS MÉDICOS E HOSPITALARES.
 * Carrossel de produtos
   * Item Produto Grade
 
-* Lista em grade produtos
-  * Item Produto Grade
-
 * Indicador de quantidade de produtos em carrinho de compras
 
 * Carrinho de compras
-  * Lista de produtos na vertical (itens do carrinho de compra) 
-    * fdasfasfas
-    * no carrinho com link para o produto adicionado;
-Alteração da quantidade de produtos no carrinho;
-Remoção do produto quando quantidade for igual a zero;
-Confirmação da compra;
+  * Lista vertical de itens de compra
+    * Item Compra Vertical
+
+* Produto
+
+* Confirmação de compra
+  * Lista vertical de itens de compra
+    * Item Compra Vertical
+    
+# Melhorias
+* Login
+
+* Menu lateral de categorias
+  * Lista em grade produtos
+    * Item Produto Grade
