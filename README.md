@@ -8,3 +8,5 @@ Loja de EQUIPAMENTOS MÉDICOS E HOSPITALARES.
 * Arthur Santos
 * Danillo Guimarães
 * Fanny Rosana Pastor Humpiri
+## Referencias
+* 
