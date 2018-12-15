@@ -65,7 +65,29 @@ Loja de EQUIPAMENTOS MÉDICOS E HOSPITALARES.
 * Confirmação de compra
   * Lista vertical de itens de compra
     * Item Compra Vertical
-    
+
+### Divisão do trabalho
+
+HOME - DANILLO  
+----------------------------  
+Carrossel de produtos  
+Item Produto Grade  
+Header (Contém a identidade visual da página)  
+
+
+CARRINHO DE COMPRA - ARTHUR  
+----------------------------  
+Indicador de quantidade de produtos em carrinho de compras  
+Carrinho de compras  
+Lista vertical de itens de compra  
+
+
+OUTROS - FANNY  
+----------------------------  
+Item Compra Vertical  
+Produto  
+Confirmação de compra  
+
 # Melhorias
 * Login
 
@@ -74,3 +96,4 @@ Loja de EQUIPAMENTOS MÉDICOS E HOSPITALARES.
     * Item Produto Grade
 
 * Rodapé
+
