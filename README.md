@@ -24,7 +24,12 @@ Loja de EQUIPAMENTOS MÉDICOS E HOSPITALARES.
 * Arquitetura aplicada
 
 ## Fluxo de navegação
-1 - Home => Carrinho de compras => Login => Cep => Exibe relatório de venda
+1 - Quando usuário não está logado
+Home => Carrinho de compras => Login => Cep => Exibe relatório de venda
+1 - Quando usuário está logado
+Home => Carrinho de compras => Login => Cep => Exibe relatório de venda
+1 - Usuário clica em cancelar
+Sempre que o usuário clicar em cancelar, devemos voltar a tela para a home
 
 ## Definição das páginas
 * Estrutura da página
