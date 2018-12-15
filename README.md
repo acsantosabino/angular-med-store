@@ -18,3 +18,9 @@ Loja de EQUIPAMENTOS MÉDICOS E HOSPITALARES.
 * https://www.medlinemedical.pt/pt/Inicio
 * https://www.centermedical.com.br/
 * https://www.hospinet.com.br/
+## Arquitetura aplicada
+* Arquitetura aplicada
+## Fluxo de navegação
+* Identificação da página
+## Definição das páginas
+* Estrutura da página
