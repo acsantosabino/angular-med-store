@@ -43,12 +43,10 @@ Loja de EQUIPAMENTOS MÉDICOS E HOSPITALARES.
   Direcionar para a "home"
 
 ## Definição das páginas
-#### Home
-* Header
-#### Carrinho de compras
-* Header
-#### Relatório de vendas
-* Header
+* Home
+* Carrinho de compras
+* Relatório de vendas
+* Produto
 
 ## Componentes
 * Carrossel de produtos
