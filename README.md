@@ -4,10 +4,6 @@ Projeto do curso de frontend avançado Especialização em Desenvolvimento Web e
 
 [Especificação do trabalho](https://github.com/danfma/pos-ufg-2018/wiki/Trabalho-final)
 
-## Frameworks
-* [Angular Cli](https://cli.angular.io/)
-* [Angular Material](https://material.angular.io/)
-* [Less (Leaner Style Sheets for css)](http://lesscss.org/)
 
 ## Aplicação
 Loja de EQUIPAMENTOS MÉDICOS E HOSPITALARES.
@@ -22,6 +18,19 @@ Loja de EQUIPAMENTOS MÉDICOS E HOSPITALARES.
 * Fanny Rosana Pastor Humpiri
 
 ## Referencias
+
+### Arquitetura
+
+* [Entendendo o Pattern Model View ViewModel MVVM](https://www.devmedia.com.br/entendendo-o-pattern-model-view-viewmodel-mvvm/18411)
+
+### Frameworks
+
+* [Angular Cli](https://cli.angular.io/)
+* [Angular Material](https://material.angular.io/)
+* [Less (Leaner Style Sheets for css)](http://lesscss.org/)
+
+### Exemplos de e-comerce de EQUIPAMENTOS MÉDICOS E HOSPITALARES.
+
 * https://www.fibracirurgica.com.br
 * https://www.allformed.com.br/
 * https://www.medlinemedical.pt/pt/Inicio
@@ -29,7 +38,16 @@ Loja de EQUIPAMENTOS MÉDICOS E HOSPITALARES.
 * https://www.hospinet.com.br/
 
 ## Arquitetura aplicada
-* Arquitetura aplicada
+
+### Model-View-ViewModel (MVVM)
+
+A escolha do Angular como framework nos traz para a arquitetura de software **MVVM**. Essa arquitetura é composta pelas seguintes camadas:
+
+- **Model:** o Model no MVVM, encapsula a lógica de negócios e os dados. Serão classes em TypeScript localizados no diretório ["./angular-med-store/src/app/model/"](https://github.com/acsantosabino/angular-med-store/tree/master/angular-med-store/src/app/model)
+
+- **View:** A responsabilidade da View é definir a aparência ou estrutura que o usuário vê na tela. Serão a parte de template dos componentes Angular (o html) localizados em ["./angular-med-store/src/app/view/"](https://github.com/acsantosabino/angular-med-store/tree/master/angular-med-store/src/app/view)
+
+- **ViewModel:** A responsabilidade da ViewModel no contexto do MVVM, é disponibilizar para a View uma lógica de apresentação. A View Model não tem nenhum conhecimento específico sobre a view, ou como ela implementada, nem o seu tipo. A ViewModel implementa propriedades e comandos, para que a View possa preencher seus controles e notifica a mesma, caso haja alteração de estado; seja através de eventos ou notificação de alteração. Serão a parte de logica dos componentes Angular (o typescript) localizados em ["./angular-med-store/src/app/viewmodel/"](https://github.com/acsantosabino/angular-med-store/tree/master/angular-med-store/src/app/viewmodel)
 
 ## Fluxo de navegação
 * Fluxo de navegação
