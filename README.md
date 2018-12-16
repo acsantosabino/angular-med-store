@@ -7,6 +7,7 @@ Projeto do curso de frontend avançado Especialização em Desenvolvimento Web e
 ## Frameworks
 * [Angular Cli](https://cli.angular.io/)
 * [Angular Material](https://material.angular.io/)
+* [Less (Leaner Style Sheets for css)](http://lesscss.org/)
 
 ## Aplicação
 Loja de EQUIPAMENTOS MÉDICOS E HOSPITALARES.
