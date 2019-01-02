@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CarrinhoIndicadorComponent } from './carrinho-indicador.component';
+import { ListaVerticalComponent } from './lista-vertical.component';
 
-describe('CarrinhoIndicadorComponent', () => {
-  let component: CarrinhoIndicadorComponent;
-  let fixture: ComponentFixture<CarrinhoIndicadorComponent>;
+describe('ListaVerticalComponent', () => {
+  let component: ListaVerticalComponent;
+  let fixture: ComponentFixture<ListaVerticalComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ CarrinhoIndicadorComponent ]
+      declarations: [ ListaVerticalComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(CarrinhoIndicadorComponent);
+    fixture = TestBed.createComponent(ListaVerticalComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

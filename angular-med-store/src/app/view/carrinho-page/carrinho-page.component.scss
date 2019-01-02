@@ -1,0 +1,9 @@
+@import '../../../styles.scss';
+
+@include mat-core();
+@include mat-table-theme($my-app-theme);
+
+.lista-compras {
+    display: table;
+    width: 80%;
+}
