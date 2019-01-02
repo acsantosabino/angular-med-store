@@ -1,0 +1,19 @@
+// Define the theme.
+$color-primary: #7986cb;
+$color-accent:  #f06292;
+$color-warn:    #ff5252;
+$icon-size: 55px;
+
+.carrinho-indicador {
+    background-color: $color-accent;
+    border-radius: 50%;
+    height: $icon-size;
+    width: $icon-size;
+    display: flex;
+    justify-content: center;
+}
+
+.mat-icon {
+    top: 50%;
+    transform: translateY(-50%);
+}

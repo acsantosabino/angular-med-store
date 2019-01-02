@@ -1,10 +1,9 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { CarrinhoCompras } from './carrinho-compras/CarrinhoCompras';
 
 @NgModule({
-  declarations: [],
-  imports: [
-    CommonModule
+  providers: [
+    CarrinhoCompras
   ]
 })
 export class ModelModule { }
