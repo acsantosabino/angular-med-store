@@ -27,7 +27,7 @@ Loja de EQUIPAMENTOS MÉDICOS E HOSPITALARES.
 
 * [Angular Cli](https://cli.angular.io/)
 * [Angular Material](https://material.angular.io/)
-* [Less (Leaner Style Sheets for css)](http://lesscss.org/)
+* [SCSS](http://sass-lang.com/)
 
 ### Exemplos de e-comerce de EQUIPAMENTOS MÉDICOS E HOSPITALARES.
 
