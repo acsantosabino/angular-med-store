@@ -2,6 +2,7 @@ import { Injectable, EventEmitter } from '@angular/core';
 
 class Compra {
     nome: string;
+
     precoUnit: number;
     quantidade: number;
 
@@ -14,6 +15,7 @@ export class CarrinhoCompras {
     private _listaComprasChanged = new EventEmitter<Compra[]>();
 
     readonly listaComprasChanged = this._listaComprasChanged.asObservable();
+
 
     getListaCompras() {
         return this.listaCompras;
