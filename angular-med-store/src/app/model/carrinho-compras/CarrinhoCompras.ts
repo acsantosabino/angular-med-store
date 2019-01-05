@@ -1,13 +1,5 @@
 import { Injectable, EventEmitter } from '@angular/core';
-
-class Compra {
-    nome: string;
-
-    precoUnit: number;
-    quantidade: number;
-
-    constructor( readonly total: number) {}
-}
+import {Compra} from '../compra/Compra';
 
 @Injectable()
 export class CarrinhoCompras {
@@ -58,49 +50,3 @@ export class CarrinhoCompras {
         this._listaComprasChanged.emit(this.listaCompras);
     }
 }
-
-
-export const ELEMENT_DATA: Compra[] = [
-    {
-      nome: 'Monitor de Pressão Arterial Automático'
-      , precoUnit: 239.97
-      , quantidade: 5
-      , total: 1199.85
-    },
-    {
-      nome: 'Aparelho de Pressão Aneroide com Esteto Solidor'
-      , precoUnit: 83.97
-      , quantidade: 6
-      , total: 503.82
-    },
-    {
-      nome: 'Conjunto Otoscópio e Oftalmoscópio'
-      , precoUnit: 1305.75
-      , quantidade: 3
-      , total: 3917.25
-    },
-    {
-      nome: 'Oxímetro de Pulso de Dedo Portátil Pediátrico'
-      , precoUnit: 249.97
-      , quantidade: 10
-      , total: 2499.70
-    },
-    {
-      nome: 'Mini Incubadora Stermax'
-      , precoUnit: 167.97
-      , quantidade: 1
-      , total: 167.97
-    },
-    {
-      nome: 'Foco de Luz Auxiliar Flexível com Rodas Para Consultório'
-      , precoUnit: 388.96
-      , quantidade: 4
-      , total: 1555.84
-    },
-    {
-      nome: 'Medidor de Colesterol e Glicemia Luna Duo Wellion Rosa'
-      , precoUnit: 161.97
-      , quantidade: 5
-      , total: 809.85
-    }
-  ];

@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { CarrinhoCompras, ELEMENT_DATA_COMPRA } from 'src/app/model';
-import { DataSource } from '@angular/cdk/table';
+import { CarrinhoCompras, Compra, ELEMENT_DATA_COMPRA } from 'src/app/model';
 
 @Component({
   selector: 'app-carrinho-page',
@@ -9,9 +8,9 @@ import { DataSource } from '@angular/cdk/table';
 })
 export class CarrinhoPageComponent implements OnInit {
 
-  protected dataSource = [];
+  protected dataSource: Compra[];
   protected displayedColumns: string[] = [
-    'Nome',
+    'Produto',
     'PrecoUnit',
     'Quantidade',
     'Total'];
@@ -29,4 +28,18 @@ export class CarrinhoPageComponent implements OnInit {
     this.updateLista();
   }
 
+  estoqueQnt(estoque: number) {
+    const lista = Array.from(new Array(estoque), (val, index) => index + 1);
+    return lista;
+  }
+
+  totalCarrinho() {
+    let totalCarrinho = 0;
+
+    for (const compra of this.dataSource) {
+      totalCarrinho += compra.total;
+    }
+
+    return totalCarrinho;
+  }
 }

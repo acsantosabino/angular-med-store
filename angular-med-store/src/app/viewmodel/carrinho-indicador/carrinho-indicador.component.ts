@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { CarrinhoCompras, ELEMENT_DATA } from 'src/app/model';
+import { CarrinhoCompras, ELEMENT_DATA_COMPRA } from 'src/app/model';
 import { Router, ActivatedRoute } from '@angular/router';
 
 @Component({
@@ -23,7 +23,7 @@ export class CarrinhoIndicadorComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.carrinho.setListaCompras(ELEMENT_DATA);
+    this.carrinho.setListaCompras(ELEMENT_DATA_COMPRA);
     this.updateIndicator();
   }
 
