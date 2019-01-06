@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { CarrinhoCompras, ELEMENT_DATA } from 'src/app/model';
+import { CarrinhoCompras, ELEMENT_DATA_COMPRA } from 'src/app/model';
 import { DataSource } from '@angular/cdk/table';
 
 @Component({
@@ -25,7 +25,7 @@ export class CarrinhoPageComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.carrinho.setListaCompras(ELEMENT_DATA);
+    this.carrinho.setListaCompras(ELEMENT_DATA_COMPRA);
     this.updateLista();
   }
 
