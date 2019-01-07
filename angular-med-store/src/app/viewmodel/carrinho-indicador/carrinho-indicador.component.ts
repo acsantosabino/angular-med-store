@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { CarrinhoCompras } from 'src/app/model';
+import { CarrinhoCompras, ELEMENT_DATA_COMPRA } from 'src/app/model';
+import { Router, ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-carrinho-indicador',
@@ -10,15 +11,24 @@ export class CarrinhoIndicadorComponent implements OnInit {
 
   protected qntItens = 0;
 
-  constructor(readonly carrinho: CarrinhoCompras) {
-    this.updateIndicator(carrinho);
+  constructor(
+    private carrinho: CarrinhoCompras,
+    private route: ActivatedRoute,
+    private router: Router) {
+    this.updateIndicator();
   }
 
-  updateIndicator(carrinho: CarrinhoCompras) {
-    this.qntItens = carrinho.getQntItens();
+  updateIndicator() {
+    this.qntItens = this.carrinho.getQntItens();
   }
 
   ngOnInit() {
+    this.carrinho.setListaCompras(ELEMENT_DATA_COMPRA);
+    this.updateIndicator();
+  }
+
+  goToCart() {
+    this.router.navigateByUrl('/cart');
   }
 
 }

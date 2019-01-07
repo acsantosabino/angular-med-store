@@ -1,24 +1,28 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { MaterialModule } from './material-module/material-module.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './view/home/home.component';
 import { CarrinhoIndicadorComponent } from './viewmodel/carrinho-indicador/carrinho-indicador.component';
 import { ModelModule } from './model';
+import { CarrinhoPageComponent } from './viewmodel/carrinho-page/carrinho-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    CarrinhoIndicadorComponent
+    CarrinhoIndicadorComponent,
+    CarrinhoPageComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ModelModule,
-    MaterialModule
+    MaterialModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
