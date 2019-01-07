@@ -9,6 +9,7 @@ import { HomeComponent } from './view/home/home.component';
 import { CarrinhoIndicadorComponent } from './viewmodel/carrinho-indicador/carrinho-indicador.component';
 import { ModelModule } from './model';
 import { CarrinhoPageComponent } from './viewmodel/carrinho-page/carrinho-page.component';
+import { CarrosselProdutosComponent } from './view/carrossel-produtos/carrossel-produtos.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { CarrinhoPageComponent } from './viewmodel/carrinho-page/carrinho-page.c
     HomeComponent,
     CarrinhoIndicadorComponent,
     CarrinhoPageComponent,
+    CarrosselProdutosComponent,
   ],
   imports: [
     BrowserModule,
