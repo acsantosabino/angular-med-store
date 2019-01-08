@@ -42,11 +42,12 @@ export class CarrinhoCompras {
 
     removeItem(itemCompra: Compra) {
         const index = this.listaCompras.indexOf(itemCompra);
+        this.listaCompras.splice(index, 1);
+        this._listaComprasChanged.emit(this.listaCompras);
+    }
 
-        const newArray = (index > -1) ? [
-            ...this.listaCompras.slice(0, index),
-            ...this.listaCompras.slice(index + 1)
-        ] : this.listaCompras;
+    updateItem(itemCompra: Compra, index: number) {
+        this.listaCompras[index] = itemCompra;
         this._listaComprasChanged.emit(this.listaCompras);
     }
 }
