@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { MaterialModule } from './material-module/material-module.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
@@ -10,7 +11,6 @@ import { CarrinhoIndicadorComponent } from './viewmodel/carrinho-indicador/carri
 import { ModelModule } from './model';
 import { CarrinhoPageComponent } from './viewmodel/carrinho-page/carrinho-page.component';
 import { CarrosselProdutosComponent } from './view/carrossel-produtos/carrossel-produtos.component';
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,6 +20,7 @@ import { CarrosselProdutosComponent } from './view/carrossel-produtos/carrossel-
     CarrosselProdutosComponent,
   ],
   imports: [
+    FormsModule,
     BrowserModule,
     AppRoutingModule,
     ModelModule,
