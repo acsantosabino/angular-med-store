@@ -1,20 +1,17 @@
-// Define the theme.
-$color-primary: #7986cb;
-$color-accent:  #f06292;
-$color-warn:    #ff5252;
+// @import '~@angular/material/theming';
+@import '../../../styles.scss';
+
+@include mat-core();
 $icon-size: 55px;
 
 .carrinho-indicador {
-    background-color: $color-accent;
+    background-color: mat-color($my-app-accent); //$color-accent;
     border-radius: 50%;
     height: $icon-size;
     width: $icon-size;
     display: flex;
     justify-content: center;
 }
-/*
 .mat-icon {
-    top: 50%;
-    transform: translateY(-50%);
+    color: white;
 }
-*/
