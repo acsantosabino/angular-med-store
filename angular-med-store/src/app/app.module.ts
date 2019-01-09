@@ -11,6 +11,7 @@ import { CarrinhoIndicadorComponent } from './viewmodel/carrinho-indicador/carri
 import { ModelModule } from './model';
 import { CarrinhoPageComponent } from './viewmodel/carrinho-page/carrinho-page.component';
 import { CarrosselProdutosComponent } from './view/carrossel-produtos/carrossel-produtos.component';
+import { ItemProdutoGradeComponent } from './view/item-produto-grade/item-produto-grade.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,6 +19,7 @@ import { CarrosselProdutosComponent } from './view/carrossel-produtos/carrossel-
     CarrinhoIndicadorComponent,
     CarrinhoPageComponent,
     CarrosselProdutosComponent,
+    ItemProdutoGradeComponent,
   ],
   imports: [
     FormsModule,
