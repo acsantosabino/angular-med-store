@@ -5,8 +5,8 @@ import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-carrinho-page',
-  templateUrl: '../../view/carrinho-page/carrinho-page.component.html',
-  styleUrls: ['../../view/carrinho-page/carrinho-page.component.scss']
+  templateUrl: './carrinho-page.component.html',
+  styleUrls: ['./carrinho-page.component.scss']
 })
 export class CarrinhoPageComponent implements OnInit {
 
