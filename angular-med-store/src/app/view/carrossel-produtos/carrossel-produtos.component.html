@@ -1,0 +1,13 @@
+  <h1>Carrossel de produtos</h1>
+  <div>
+    <div *ngFor="let produto of produtosExibidos">
+        <app-item-produto-grade [produto]="produto"></app-item-produto-grade>
+    </div>
+  </div>
+  <mat-paginator [length]="length"
+                [pageSize]="pageSize"
+                [pageIndex]=0
+                [pageSizeOptions]="pageSizeOptions"
+                (page)="mudarPagina($event)">
+  </mat-paginator>
+  
