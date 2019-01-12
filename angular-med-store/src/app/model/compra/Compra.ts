@@ -20,7 +20,7 @@ export const ELEMENT_DATA_COMPRA: Compra[] = [
     quantidade: 6,
     total: 503.82,
     estoque: 20,
-    imgPath: '../../../assets/img/blood-pressure.jpg'
+    imgPath: '../../../assets/img/pressaodigital.jpg'
   },
   {
     nome: 'Conjunto Otoscópio e Oftalmoscópio',
@@ -28,7 +28,7 @@ export const ELEMENT_DATA_COMPRA: Compra[] = [
     quantidade: 3,
     total: 3917.25,
     estoque: 20,
-    imgPath: '../../../assets/img/blood-pressure.jpg'
+    imgPath: '../../../assets/img/otoscopio.jpg'
   },
   {
     nome: 'Oxímetro de Pulso de Dedo Portátil Pediátrico',
