@@ -36,7 +36,7 @@ export const ELEMENT_DATA_COMPRA: Compra[] = [
     quantidade: 10,
     total: 2499.7,
     estoque: 20,
-    imgPath: '../../../assets/img/blood-pressure.jpg'
+    imgPath: '../../../assets/img/oximetro.jpg'
   },
   {
     nome: 'Mini Incubadora Stermax',
@@ -44,7 +44,7 @@ export const ELEMENT_DATA_COMPRA: Compra[] = [
     quantidade: 1,
     total: 167.97,
     estoque: 20,
-    imgPath: '../../../assets/img/blood-pressure.jpg'
+    imgPath: '../../../assets/img/minincubadora.jpg'
   },
   {
     nome: 'Foco de Luz Auxiliar Flexível com Rodas Para Consultório',
@@ -52,7 +52,7 @@ export const ELEMENT_DATA_COMPRA: Compra[] = [
     quantidade: 4,
     total: 1555.84,
     estoque: 20,
-    imgPath: '../../../assets/img/blood-pressure.jpg'
+    imgPath: '../../../assets/img/lanterna.jpg'
   },
   {
     nome: 'Medidor de Colesterol e Glicemia Luna Duo Wellion Rosa',
@@ -60,6 +60,6 @@ export const ELEMENT_DATA_COMPRA: Compra[] = [
     quantidade: 5,
     total: 809.85,
     estoque: 20,
-    imgPath: '../../../assets/img/blood-pressure.jpg'
+    imgPath: '../../../assets/img/medidorglicemia.jpeg'
   }
 ];
