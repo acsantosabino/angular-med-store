@@ -12,6 +12,7 @@ import { ModelModule } from './model';
 import { CarrinhoPageComponent } from './viewmodel/carrinho-page/carrinho-page.component';
 import { CarrosselProdutosComponent } from './view/carrossel-produtos/carrossel-produtos.component';
 import { ItemProdutoGradeComponent } from './view/item-produto-grade/item-produto-grade.component';
+import { CompraComponent } from './view/compra/compra.component';
 @NgModule({
   declarations: [
     AppComponent,
