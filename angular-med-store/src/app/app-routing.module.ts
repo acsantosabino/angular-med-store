@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { CarrinhoPageComponent, HomeComponent } from './view-viewmodel';
+import { CarrinhoPageComponent, HomeComponent, CompraComponent } from './view-viewmodel';
 
 const routes: Routes = [
   {
@@ -10,6 +10,11 @@ const routes: Routes = [
   {
     path: 'cart',
     component: CarrinhoPageComponent,
+    children: [],
+  },
+  {
+    path: 'compra',
+    component: CompraComponent,
     children: [],
   },
 ];
