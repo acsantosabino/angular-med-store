@@ -11,5 +11,7 @@ export class CompraComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  goToCompra() {
+    this.router.navigateByUrl('/compra');
+  }
 }
