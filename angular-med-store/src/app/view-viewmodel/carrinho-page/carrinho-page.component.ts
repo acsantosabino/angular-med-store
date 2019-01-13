@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { CarrinhoCompras, Compra, ELEMENT_DATA_COMPRA } from 'src/app/model';
 import { MatTableDataSource } from '@angular/material';
 import { Subscription } from 'rxjs';
+import { Router, ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-carrinho-page',
@@ -18,7 +19,10 @@ export class CarrinhoPageComponent implements OnInit {
     'Quantidade',
     'Total'];
 
-  constructor(private carrinho: CarrinhoCompras) {
+  constructor(private carrinho: CarrinhoCompras,
+    private route: ActivatedRoute,
+    private router: Router
+    ) {
     this.dataSource = new MatTableDataSource(this.carrinho.getListaCompras());
 
     this._listaComprasChangedSubscription =
@@ -57,5 +61,8 @@ export class CarrinhoPageComponent implements OnInit {
     item.quantidade = qnt;
     item.total = item.precoUnit * qnt;
     this.carrinho.updateItem(item, qnt);
+  }
+  gotoCompra() {
+    this.router.navigateByUrl('/compra');
   }
 }

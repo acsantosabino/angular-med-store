@@ -28,7 +28,7 @@ import { HomeComponent,
   ],
   imports: [
     FormsModule,
-    BrowserModule, 
+    BrowserModule,
     AppRoutingModule,
     ModelModule,
     MaterialModule,
