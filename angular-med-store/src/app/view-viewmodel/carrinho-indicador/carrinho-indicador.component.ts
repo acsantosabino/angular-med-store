@@ -4,8 +4,8 @@ import { Router, ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-carrinho-indicador',
-  templateUrl: '../../view/carrinho-indicador/carrinho-indicador.component.html',
-  styleUrls: ['../../view/carrinho-indicador/carrinho-indicador.component.scss']
+  templateUrl: './carrinho-indicador.component.html',
+  styleUrls: ['./carrinho-indicador.component.scss']
 })
 export class CarrinhoIndicadorComponent implements OnInit {
 
