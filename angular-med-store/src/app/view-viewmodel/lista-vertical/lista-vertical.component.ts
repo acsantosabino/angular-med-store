@@ -1,13 +1,17 @@
 import { Component, OnInit } from '@angular/core';
-import { CarrinhoCompras, ELEMENT_DATA_COMPRA } from 'src/app/model';
+import { CarrinhoCompras, Compra, ELEMENT_DATA_COMPRA } from 'src/app/model';
+import { MatTableDataSource } from '@angular/material';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-lista-vertical',
   templateUrl: './lista-vertical.component.html',
-  styleUrls: ['./lista-vertical.component.less']
+  styleUrls: ['./lista-vertical.component.scss']
 })
 export class ListaVerticalComponent implements OnInit {
-  protected dataSource = [];
+
+  protected dataSource: MatTableDataSource<Compra>;
+  private readonly _listaComprasChangedSubscription: Subscription;
   protected displayedColumns: string[] = [
     'Produto',
     'PrecoUnit',
@@ -15,16 +19,18 @@ export class ListaVerticalComponent implements OnInit {
     'Total'];
 
   constructor(private carrinho: CarrinhoCompras) {
-    this.updateLista();
-  }
+    this.dataSource = new MatTableDataSource(this.carrinho.getListaCompras());
 
-  updateLista() {
-    this.dataSource = this.carrinho.getListaCompras();
+    this._listaComprasChangedSubscription =
+      this.carrinho.listaComprasChanged
+        .subscribe(listaCompras => {
+          this.dataSource = new MatTableDataSource(listaCompras);
+        });
+
   }
 
   ngOnInit() {
     this.carrinho.setListaCompras(ELEMENT_DATA_COMPRA);
-    this.updateLista();
   }
 
   estoqueQnt(estoque: number) {
@@ -32,4 +38,14 @@ export class ListaVerticalComponent implements OnInit {
     return lista;
   }
 
+  removeItem(item: Compra) {
+    this.carrinho.removeItem(item);
+  }
+
+  changeItemQnt(item: Compra, qnt: number) {
+    const index = this.dataSource.data.indexOf(item);
+    item.quantidade = qnt;
+    item.total = item.precoUnit * qnt;
+    this.carrinho.updateItem(item, qnt);
+  }
 }

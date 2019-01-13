@@ -11,8 +11,10 @@ import { HomeComponent,
   CarrinhoIndicadorComponent,
   CarrinhoPageComponent,
   CarrosselProdutosComponent,
-  ItemProdutoGradeComponent, 
+  ItemProdutoGradeComponent,
+  ListaVerticalComponent, 
   CompraComponent } from './view-viewmodel';
+  
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,11 +23,12 @@ import { HomeComponent,
     CarrinhoPageComponent,
     CarrosselProdutosComponent,
     ItemProdutoGradeComponent,
+    ListaVerticalComponent,
     CompraComponent
   ],
   imports: [
     FormsModule,
-    BrowserModule,
+    BrowserModule, 
     AppRoutingModule,
     ModelModule,
     MaterialModule,
