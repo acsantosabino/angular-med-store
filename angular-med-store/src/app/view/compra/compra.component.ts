@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Router, ActivatedRoute } from '@angular/router';
+
 
 @Component({
   selector: 'app-compra',
@@ -9,13 +9,10 @@ import { Router, ActivatedRoute } from '@angular/router';
 export class CompraComponent implements OnInit {
 
   constructor(
-    private route: ActivatedRoute,
-    private router: Router){
+    ){
    }
 
   ngOnInit() {
   }
-  goToCompra() {
-    this.router.navigateByUrl('/compra');
-  }
+
 }
