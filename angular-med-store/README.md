@@ -27,3 +27,14 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+##Solutions and Error
+
+#Could not find module “@angular-devkit/build-angular”
+- Install @angular-devkit/build-angular as dev dependency. (This package is newly introduced in Angular 6.0)
+  `npm install --save-dev @angular-devkit/build-angular`
+  
+#npm ERR Missing!
+- Install @angular/animations with `npm install @angular/animations`
+- Install @angular/cdk with `npm install @angular/cdk`
+- Install @angular/material with `npm install @angular/material`
