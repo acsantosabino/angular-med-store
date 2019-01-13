@@ -105,7 +105,7 @@ A COMPRA - FANNY
 ----------------------------  
 Item Compra Vertical  
 Produto  
-Confirmação de compra  
+ ✓ Confirmação de compra  
 
 # Melhorias
 * Login
