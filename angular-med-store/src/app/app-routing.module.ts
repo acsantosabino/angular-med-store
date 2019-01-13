@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { CarrinhoPageComponent } from './viewmodel/carrinho-page/carrinho-page.component';
-import {HomeComponent } from './view/home/home.component';
+import { CarrinhoPageComponent, HomeComponent } from './view-viewmodel';
 
 const routes: Routes = [
   {
