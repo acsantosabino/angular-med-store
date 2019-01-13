@@ -1,0 +1,24 @@
+<main>
+  <h2>Meu Carrinho</h2>
+  <section class="flex">
+    <app-lista-vertical></app-lista-vertical>
+
+    <div>
+      <aside class="resumo-compras">
+        <mat-card>
+          <mat-card-header>
+            <mat-card-title>Resumo da Compra</mat-card-title>
+          </mat-card-header>
+
+          <mat-card-content>
+            <h3>Total</h3>
+            <p class="text-right">R$ {{ totalCarrinho() }}</p>
+          </mat-card-content>
+          <mat-card-actions>
+            <button mat-flat-button color="accent">Comprar</button>
+          </mat-card-actions>
+        </mat-card>
+      </aside>
+    </div>
+  </section>
+</main>

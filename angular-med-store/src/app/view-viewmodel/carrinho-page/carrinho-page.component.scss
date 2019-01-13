@@ -1,0 +1,13 @@
+@import '../../../styles.scss';
+
+@include mat-core();
+
+.flex {
+    display: flex;
+}
+
+.resumo-compras {
+    position: fixed;
+    width: 20%;
+    margin: 20px;
+}

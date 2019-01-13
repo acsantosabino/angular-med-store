@@ -45,9 +45,9 @@ A escolha do Angular como framework nos traz para a arquitetura de software **MV
 
 - **Model:** o Model no MVVM, encapsula a lógica de negócios e os dados. Serão classes em TypeScript localizados no diretório ["./angular-med-store/src/app/model/"](https://github.com/acsantosabino/angular-med-store/tree/master/angular-med-store/src/app/model)
 
-- **View:** A responsabilidade da View é definir a aparência ou estrutura que o usuário vê na tela. Serão a parte de template dos componentes Angular (o html) localizados em ["./angular-med-store/src/app/view/"](https://github.com/acsantosabino/angular-med-store/tree/master/angular-med-store/src/app/view)
+- **View:** A responsabilidade da View é definir a aparência ou estrutura que o usuário vê na tela. Serão a parte de template dos componentes Angular (o html) localizados em ["./angular-med-store/src/app/view-viewmodel/"](https://github.com/acsantosabino/angular-med-store/tree/master/angular-med-store/src/app/view-viewmodel)
 
-- **ViewModel:** A responsabilidade da ViewModel no contexto do MVVM, é disponibilizar para a View uma lógica de apresentação. A View Model não tem nenhum conhecimento específico sobre a view, ou como ela implementada, nem o seu tipo. A ViewModel implementa propriedades e comandos, para que a View possa preencher seus controles e notifica a mesma, caso haja alteração de estado; seja através de eventos ou notificação de alteração. Serão a parte de logica dos componentes Angular (o typescript) localizados em ["./angular-med-store/src/app/viewmodel/"](https://github.com/acsantosabino/angular-med-store/tree/master/angular-med-store/src/app/viewmodel)
+- **ViewModel:** A responsabilidade da ViewModel no contexto do MVVM, é disponibilizar para a View uma lógica de apresentação. A View Model não tem nenhum conhecimento específico sobre a view, ou como ela implementada, nem o seu tipo. A ViewModel implementa propriedades e comandos, para que a View possa preencher seus controles e notifica a mesma, caso haja alteração de estado; seja através de eventos ou notificação de alteração. Serão a parte de logica dos componentes Angular (o typescript) localizados em ["./angular-med-store/src/app/view-viewmodel/"](https://github.com/acsantosabino/angular-med-store/tree/master/angular-med-store/src/app/view-viewmodel)
 
 ## Fluxo de navegação
 * Fluxo de navegação

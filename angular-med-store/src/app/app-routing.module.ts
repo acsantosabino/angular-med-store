@@ -1,8 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { CarrinhoPageComponent } from './viewmodel/carrinho-page/carrinho-page.component';
-import { CompraComponent } from './view/compra/compra.component';
-import {HomeComponent } from './view/home/home.component';
+import { CarrinhoPageComponent, HomeComponent, CompraComponent } from './view-viewmodel';
 
 const routes: Routes = [
   {

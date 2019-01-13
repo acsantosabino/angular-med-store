@@ -1,0 +1,17 @@
+// @import '~@angular/material/theming';
+@import '../../../styles.scss';
+
+@include mat-core();
+$icon-size: 55px;
+
+.carrinho-indicador {
+    background-color: mat-color($my-app-accent); //$color-accent;
+    border-radius: 50%;
+    height: $icon-size;
+    width: $icon-size;
+    display: flex;
+    justify-content: center;
+}
+.mat-icon {
+    color: white;
+}

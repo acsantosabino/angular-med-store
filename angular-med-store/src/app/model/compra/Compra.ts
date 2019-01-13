@@ -7,6 +7,7 @@ export class Compra extends Produto {
 
 export const ELEMENT_DATA_COMPRA: Compra[] = [
   {
+    id: '#',
     nome: 'Monitor de Pressão Arterial Automático',
     precoUnit: 239.97,
     quantidade: 5,
@@ -15,6 +16,7 @@ export const ELEMENT_DATA_COMPRA: Compra[] = [
     imgPath: '../../../assets/img/blood-pressure.jpg'
   },
   {
+    id: '#',
     nome: 'Aparelho de Pressão Aneroide com Esteto Solidor',
     precoUnit: 83.97,
     quantidade: 6,
@@ -23,6 +25,7 @@ export const ELEMENT_DATA_COMPRA: Compra[] = [
     imgPath: '../../../assets/img/pressaodigital.jpg'
   },
   {
+    id: '#',
     nome: 'Conjunto Otoscópio e Oftalmoscópio',
     precoUnit: 1305.75,
     quantidade: 3,
@@ -31,6 +34,7 @@ export const ELEMENT_DATA_COMPRA: Compra[] = [
     imgPath: '../../../assets/img/otoscopio.jpg'
   },
   {
+    id: '#',
     nome: 'Oxímetro de Pulso de Dedo Portátil Pediátrico',
     precoUnit: 249.97,
     quantidade: 10,
@@ -39,6 +43,7 @@ export const ELEMENT_DATA_COMPRA: Compra[] = [
     imgPath: '../../../assets/img/oximetro.jpg'
   },
   {
+    id: '#',
     nome: 'Mini Incubadora Stermax',
     precoUnit: 167.97,
     quantidade: 1,
@@ -47,6 +52,7 @@ export const ELEMENT_DATA_COMPRA: Compra[] = [
     imgPath: '../../../assets/img/minincubadora.jpg'
   },
   {
+    id: '#',
     nome: 'Foco de Luz Auxiliar Flexível com Rodas Para Consultório',
     precoUnit: 388.96,
     quantidade: 4,
@@ -55,6 +61,7 @@ export const ELEMENT_DATA_COMPRA: Compra[] = [
     imgPath: '../../../assets/img/lanterna.jpg'
   },
   {
+    id: '#',
     nome: 'Medidor de Colesterol e Glicemia Luna Duo Wellion Rosa',
     precoUnit: 161.97,
     quantidade: 5,
