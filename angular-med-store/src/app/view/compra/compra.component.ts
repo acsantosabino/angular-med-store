@@ -7,7 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CompraComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+    private route: ActivatedRoute,
+    private router: Router) {
+   }
 
   ngOnInit() {
   }
