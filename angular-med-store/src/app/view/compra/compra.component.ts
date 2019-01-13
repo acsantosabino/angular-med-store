@@ -8,9 +8,9 @@ import { Router, ActivatedRoute } from '@angular/router';
 })
 export class CompraComponent implements OnInit {
 
-  constructor() {
+  constructor(
     private route: ActivatedRoute,
-    private router: Router) {
+    private router: Router){
    }
 
   ngOnInit() {
