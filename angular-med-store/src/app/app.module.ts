@@ -21,6 +21,7 @@ import { CompraComponent } from './view/compra/compra.component';
     CarrinhoPageComponent,
     CarrosselProdutosComponent,
     ItemProdutoGradeComponent,
+    CompraComponent,
   ],
   imports: [
     FormsModule,
