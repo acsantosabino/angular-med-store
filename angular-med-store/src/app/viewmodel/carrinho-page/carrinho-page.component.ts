@@ -62,7 +62,7 @@ export class CarrinhoPageComponent implements OnInit {
     item.total = item.precoUnit * qnt;
     this.carrinho.updateItem(item, qnt);
   }
-  goToCompra() {
+  gotoCompra() {
     this.router.navigateByUrl('/compra');
   }
 }
