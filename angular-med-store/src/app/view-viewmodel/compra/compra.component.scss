@@ -1,1 +1,47 @@
-#h3{color:"green"}
+.imagen{
+    border: 0px solid rgb(250, 250, 250);
+    background: rgb(255, 255, 255);
+    margin:10px
+}
+.imagen img{
+    position: relative;
+    top:30%;
+    left:40%;
+    width: 250px;    
+    height: 200px;
+}
+@mixin border-radius($radio){
+    -webkit-border-radius: $radio
+}
+
+.texto{
+    border: 0px solid rgb(43, 66, 90);
+    background: rgb(255, 255, 255);
+    margin:10px;
+    @include border-radius(5px);
+    font-size:12px;
+    padding:5px
+}
+.texto h1{
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    top: 40%;
+    font-weight: bold
+}
+.texto h3{
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    top: 50%;
+    font-weight: bold
+}
+.texto h4{
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    top: 60%
+}
