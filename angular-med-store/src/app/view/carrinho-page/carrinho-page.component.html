@@ -62,7 +62,7 @@
             <p class="text-right"> R$ {{totalCarrinho()}}</p>
           </mat-card-content>
           <mat-card-actions>
-            <button mat-flat-button color="accent">Comprar</button>
+            <button class="carrinho-indicador" mat-flat-button color="accent" (click)="gotoCompra();">Comprar</button>
           </mat-card-actions>
         </mat-card>
       </aside>

@@ -30,5 +30,7 @@ export class CarrinhoIndicadorComponent implements OnInit {
   goToCart() {
     this.router.navigateByUrl('/cart');
   }
-
+  goToCompra() {
+    this.router.navigateByUrl('/compra');
+  }
 }
