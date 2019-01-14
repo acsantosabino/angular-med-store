@@ -10,9 +10,9 @@ import { Subscription } from 'rxjs';
 })
 export class ListaVerticalComponent implements OnInit {
 
-  protected dataSource: MatTableDataSource<Compra>;
+  public dataSource: MatTableDataSource<Compra>;
   private readonly _listaComprasChangedSubscription: Subscription;
-  protected displayedColumns: string[] = [
+  public readonly displayedColumns: string[] = [
     'Produto',
     'PrecoUnit',
     'Quantidade',

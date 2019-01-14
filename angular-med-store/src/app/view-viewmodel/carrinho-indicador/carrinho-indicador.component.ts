@@ -9,7 +9,7 @@ import { Router, ActivatedRoute } from '@angular/router';
 })
 export class CarrinhoIndicadorComponent implements OnInit {
 
-  protected qntItens = 0;
+  public qntItens = 0;
 
   constructor(
     private carrinho: CarrinhoCompras,
