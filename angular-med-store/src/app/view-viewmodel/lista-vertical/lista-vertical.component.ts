@@ -10,6 +10,7 @@ import { Subscription } from 'rxjs';
 })
 export class ListaVerticalComponent implements OnInit {
 
+  protected key = 'cart';
   public dataSource: MatTableDataSource<Compra>;
   private readonly _listaComprasChangedSubscription: Subscription;
   public readonly displayedColumns: string[] = [
@@ -24,13 +25,15 @@ export class ListaVerticalComponent implements OnInit {
     this._listaComprasChangedSubscription =
       this.carrinho.listaComprasChanged
         .subscribe(listaCompras => {
+          window.localStorage.setItem(this.key, JSON.stringify(listaCompras));
           this.dataSource = new MatTableDataSource(listaCompras);
         });
 
   }
 
   ngOnInit() {
-    this.carrinho.setListaCompras(ELEMENT_DATA_COMPRA);
+    const lista = JSON.parse(window.localStorage.getItem(this.key));
+    this.carrinho.setListaCompras(lista);
   }
 
   estoqueQnt(estoque: number) {

@@ -10,58 +10,32 @@ import { Router, ActivatedRoute } from '@angular/router';
   styleUrls: ['./carrinho-page.component.scss']
 })
 export class CarrinhoPageComponent implements OnInit {
-
-  protected dataSource: MatTableDataSource<Compra>;
+  public totalCarrinho = 0;
   private readonly _listaComprasChangedSubscription: Subscription;
-  protected displayedColumns: string[] = [
-    'Produto',
-    'PrecoUnit',
-    'Quantidade',
-    'Total'];
 
-  constructor(private carrinho: CarrinhoCompras,
-    private route: ActivatedRoute,
-    private router: Router
-    ) {
-    this.dataSource = new MatTableDataSource(this.carrinho.getListaCompras());
+  constructor(
+    protected readonly carrinho: CarrinhoCompras,
+    private router: Router) {
 
     this._listaComprasChangedSubscription =
       this.carrinho.listaComprasChanged
         .subscribe(listaCompras => {
-          this.dataSource = new MatTableDataSource(listaCompras);
+          this.calculaTotal(listaCompras);
         });
-
   }
 
-  ngOnInit() {
-    this.carrinho.setListaCompras(ELEMENT_DATA_COMPRA);
-  }
-
-  estoqueQnt(estoque: number) {
-    const lista = Array.from(new Array(estoque), (val, index) => index + 1);
-    return lista;
-  }
-
-  totalCarrinho() {
-    let totalCarrinho = 0;
-
-    for (const compra of this.dataSource.data) {
-      totalCarrinho += compra.total;
+  calculaTotal(listaCompras: Compra[]) {
+    this.totalCarrinho = 0;
+    for (const compra of listaCompras) {
+      this.totalCarrinho += compra.total;
     }
-
-    return totalCarrinho;
+  }
+  ngOnInit() {
+    window.localStorage.setItem('cart', JSON.stringify(ELEMENT_DATA_COMPRA));
+    this.calculaTotal(JSON.parse(window.localStorage.getItem('cart')));
+    // this.carrinho.setListaCompras(ELEMENT_DATA_COMPRA);
   }
 
-  removeItem(item: Compra) {
-    this.carrinho.removeItem(item);
-  }
-
-  changeItemQnt(item: Compra, qnt: number) {
-    const index = this.dataSource.data.indexOf(item);
-    item.quantidade = qnt;
-    item.total = item.precoUnit * qnt;
-    this.carrinho.updateItem(item, qnt);
-  }
   gotoCompra() {
     this.router.navigateByUrl('/compra');
   }
