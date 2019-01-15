@@ -13,7 +13,7 @@ export const ELEMENT_DATA_COMPRA: Compra[] = [
     quantidade: 5,
     total: 1199.85,
     estoque: 20,
-    imgPath: '../../../assets/img/blood-pressure.jpg'
+    imgPath: 'assets/img/blood-pressure.jpg'
   },
   {
     id: '#',
@@ -22,7 +22,7 @@ export const ELEMENT_DATA_COMPRA: Compra[] = [
     quantidade: 6,
     total: 503.82,
     estoque: 20,
-    imgPath: '../../../assets/img/pressaodigital.jpg'
+    imgPath: 'assets/img/pressaodigital.jpg'
   },
   {
     id: '#',
@@ -31,7 +31,7 @@ export const ELEMENT_DATA_COMPRA: Compra[] = [
     quantidade: 3,
     total: 3917.25,
     estoque: 20,
-    imgPath: '../../../assets/img/otoscopio.jpg'
+    imgPath: 'assets/img/otoscopio.jpg'
   },
   {
     id: '#',
@@ -40,7 +40,7 @@ export const ELEMENT_DATA_COMPRA: Compra[] = [
     quantidade: 10,
     total: 2499.7,
     estoque: 20,
-    imgPath: '../../../assets/img/oximetro.jpg'
+    imgPath: 'assets/img/oximetro.jpg'
   },
   {
     id: '#',
@@ -49,7 +49,7 @@ export const ELEMENT_DATA_COMPRA: Compra[] = [
     quantidade: 1,
     total: 167.97,
     estoque: 20,
-    imgPath: '../../../assets/img/minincubadora.jpg'
+    imgPath: 'assets/img/minincubadora.jpg'
   },
   {
     id: '#',
@@ -58,7 +58,7 @@ export const ELEMENT_DATA_COMPRA: Compra[] = [
     quantidade: 4,
     total: 1555.84,
     estoque: 20,
-    imgPath: '../../../assets/img/lanterna.jpg'
+    imgPath: 'assets/img/lanterna.jpg'
   },
   {
     id: '#',
@@ -67,6 +67,6 @@ export const ELEMENT_DATA_COMPRA: Compra[] = [
     quantidade: 5,
     total: 809.85,
     estoque: 20,
-    imgPath: '../../../assets/img/medidorglicemia.jpeg'
+    imgPath: 'assets/img/medidorglicemia.jpeg'
   }
 ];
