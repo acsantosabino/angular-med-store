@@ -31,9 +31,8 @@ export class CarrinhoPageComponent implements OnInit {
     }
   }
   ngOnInit() {
-    window.localStorage.setItem('cart', JSON.stringify(ELEMENT_DATA_COMPRA));
-    this.calculaTotal(JSON.parse(window.localStorage.getItem('cart')));
-    // this.carrinho.setListaCompras(ELEMENT_DATA_COMPRA);
+    const lista = JSON.parse(window.localStorage.getItem('cart'));
+    this.calculaTotal(lista);
   }
 
   gotoCompra() {

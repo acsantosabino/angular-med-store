@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { CarrinhoCompras, Compra, ELEMENT_DATA_COMPRA } from 'src/app/model';
 import { MatTableDataSource } from '@angular/material';
 import { Subscription } from 'rxjs';
+import { dashCaseToCamelCase } from '@angular/compiler/src/util';
 
 @Component({
   selector: 'app-lista-vertical',
@@ -32,6 +33,7 @@ export class ListaVerticalComponent implements OnInit {
   }
 
   ngOnInit() {
+    // this.carrinho.setListaCompras(ELEMENT_DATA_COMPRA);
     const lista = JSON.parse(window.localStorage.getItem(this.key));
     this.carrinho.setListaCompras(lista);
   }
@@ -49,6 +51,6 @@ export class ListaVerticalComponent implements OnInit {
     const index = this.dataSource.data.indexOf(item);
     item.quantidade = qnt;
     item.total = item.precoUnit * qnt;
-    this.carrinho.updateItem(item, qnt);
+    this.carrinho.updateItem(item, index);
   }
 }

@@ -29,6 +29,7 @@ export class CarrinhoCompras {
 
     setListaCompras(lista: Compra[]) {
         this.listaCompras = lista;
+        this._listaComprasChanged.emit(this.listaCompras);
         return this.getQntItens();
     }
 
@@ -42,8 +43,15 @@ export class CarrinhoCompras {
 
     removeItem(itemCompra: Compra) {
         const index = this.listaCompras.indexOf(itemCompra);
-        this.listaCompras.splice(index, 1);
-        this._listaComprasChanged.emit(this.listaCompras);
+        if (index >= 0) {
+            this.listaCompras.splice(index, 1);
+            this._listaComprasChanged.emit(this.listaCompras);
+        } else {
+            console.log('Item não encontrado');
+            console.log(this.listaCompras);
+            console.log(itemCompra);
+            console.log(index);
+        }
     }
 
     updateItem(itemCompra: Compra, index: number) {
