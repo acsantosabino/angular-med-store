@@ -13,10 +13,6 @@ export class CarrinhoCompras {
         return this.listaCompras;
     }
 
-    getQntItens() {
-        return this.listaCompras.length;
-    }
-
     getValorTotal() {
         let total = 0;
 
@@ -30,7 +26,6 @@ export class CarrinhoCompras {
     setListaCompras(lista: Compra[]) {
         this.listaCompras = lista;
         this._listaComprasChanged.emit(this.listaCompras);
-        return this.getQntItens();
     }
 
     addItem(itemCompra: Compra) {

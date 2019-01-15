@@ -33,9 +33,6 @@ export class ListaVerticalComponent implements OnInit {
   }
 
   ngOnInit() {
-    // this.carrinho.setListaCompras(ELEMENT_DATA_COMPRA);
-    const lista = JSON.parse(window.localStorage.getItem(this.key));
-    this.carrinho.setListaCompras(lista);
   }
 
   estoqueQnt(estoque: number) {
