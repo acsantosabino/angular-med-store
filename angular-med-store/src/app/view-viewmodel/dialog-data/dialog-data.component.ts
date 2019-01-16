@@ -1,15 +1,17 @@
 import { Component, OnInit, Inject } from '@angular/core';
 import {MatDialog, MAT_DIALOG_DATA} from '@angular/material';
+import { analyzeAndValidateNgModules } from '@angular/compiler';
 
 
 export interface DialogData {
-  animal: 'panda' | 'unicorn' | 'lion';
+  id: '1' | '2' | '3'| '4' | '5' | '6' | '7' | '8' | '9';
+  usuario: 'Andres' | 'Sergio' | 'Karla' | 'Diego' | 'Javier' | 'Frank' | 'Viera' | 'Lizeth' | 'Jenny';
 }
 
 @Component({
   selector: 'app-dialog-data',
   templateUrl: './dialog-data.component.html',
-  styleUrls: ['./dialog-data.component.sass']
+  styleUrls: ['./dialog-data.component.scss']
 })
 
   export class DialogData {
@@ -18,11 +20,13 @@ export interface DialogData {
   openDialog() {
     this.dialog.open(DialogDataDialog, {
       data: {
-        animal: 'panda'
+        usuario: 'andres'
       }
+     
     });
-  }
-  
+  }  
+
+
 }
 
 @Component({

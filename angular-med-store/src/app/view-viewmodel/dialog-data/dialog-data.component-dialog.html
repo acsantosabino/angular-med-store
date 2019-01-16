@@ -1,17 +1,17 @@
 <h1 mat-dialog-title>ESTETOSCOPIO</h1>
 <div mat-dialog-content>
- <h1>ESTETOSCOPIO MODELO HSCJKXSN7382, COM PRESCICION 32783mm</h1>
+ <h1>ESTETOSCOPIO MODELO <br />HSCJKXSN7382, COM PRESCICION 32783mm</h1>
  <br />
  <h2>Caracteristica</h2>
   <ul>
     <li>
-      <span *ngIf="data.animal === 'panda'">&#10003;</span> Lente 323c optimizada flex xhsy
+      <span *ngIf="data.usuario === 'Andres'">&#10003;</span> Lente 323c optimizada flex xhsy
     </li>
     <li>
-      <span *ngIf="data.animal === 'unicorn'">&#10003;</span> 35mm de precision
+      <span *ngFor="let usuario of data">{{data.usuario}}</span> 35mm de precision
     </li>
     <li>
-      <span *ngIf="data.animal === 'lion'">&#10003;</span>etc etc
+      <span *ngIf="data.usuario === 'Karla'">&#10003;</span>etc etc
     </li>
   </ul>
 </div>
