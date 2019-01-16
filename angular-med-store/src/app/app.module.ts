@@ -14,7 +14,8 @@ import { HomeComponent,
   ItemProdutoGradeComponent,
   ListaVerticalComponent, 
   CompraComponent } from './view-viewmodel';
-  
+import {DialogData, DialogDataDialog} from './view-viewmodel/dialog-data/dialog-data.component';
+ 
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +25,8 @@ import { HomeComponent,
     CarrosselProdutosComponent,
     ItemProdutoGradeComponent,
     ListaVerticalComponent,
-    CompraComponent
+    CompraComponent,
+    DialogData, DialogDataDialog
   ],
   imports: [
     FormsModule,
@@ -34,7 +36,8 @@ import { HomeComponent,
     MaterialModule,
     BrowserAnimationsModule,
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  entryComponents: [DialogData, DialogDataDialog],
+    bootstrap: [AppComponent, DialogData ],
+  providers: []
 })
 export class AppModule { }
