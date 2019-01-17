@@ -5,7 +5,10 @@
 }
 .izquierdo{
     float: left;
-    width:300px;
+    height: fit-content;
+    img {
+        width: 200px;
+    }
 
 }
 .derecho{

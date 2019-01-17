@@ -10,6 +10,6 @@ export class AppComponent {
   title = 'angular-med-store';
 
   constructor() {
-    window.localStorage.setItem('cart', JSON.stringify(ELEMENT_DATA_COMPRA));
+    // window.localStorage.setItem('cart', JSON.stringify(ELEMENT_DATA_COMPRA));
   }
 }

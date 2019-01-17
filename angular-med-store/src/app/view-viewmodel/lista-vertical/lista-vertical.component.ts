@@ -26,7 +26,7 @@ export class ListaVerticalComponent implements OnInit {
     this._listaComprasChangedSubscription =
       this.carrinho.listaComprasChanged
         .subscribe(listaCompras => {
-          window.localStorage.setItem(this.key, JSON.stringify(listaCompras));
+          // window.localStorage.setItem(this.key, JSON.stringify(listaCompras));
           this.dataSource = new MatTableDataSource(listaCompras);
         });
 
