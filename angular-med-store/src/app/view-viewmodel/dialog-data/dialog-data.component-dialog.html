@@ -1,4 +1,4 @@
-<h1 mat-dialog-title>ESTETOSCOPIO</h1>
+<h1 mat-dialog-title>{{data.nombre}}</h1>
 <div mat-dialog-content>
 
   <div class="izquierdo">
@@ -13,22 +13,21 @@
     <h2>Caracteristicas:</h2>
       <ul>
         <li>
-          <span *ngIf="data.usuario === 'Andres'">&#10003;</span> Lente 323c optimizada flex xhsy
+          <span *ngIf="data.producto === 'cureta'">&#10003;</span> Lente 323c optimizada flex xhsy
         </li>
         <li>
-          <span *ngFor="let usuario of data">{{data.usuario}}</span> 35mm de precision
+          <span *ngFor="let usuario of data">{{data.producto}}</span> 35mm de precision
         </li>
         <li>
-          <span *ngIf="data.usuario === 'Karla'">&#10003;</span>etc etc
+          <span *ngIf="data.producto === 'oximetro'">&#10003;</span>etc etc
         </li>
       </ul>
-      <div mat-dialog-actions class="botones">
-          <button mat-button (click)="onComprarClick()">Comprar</button>
-        </div>
+      <p>Indique la cantidad: </p>
+     <mat-form-field>
+         <input matInput [(ngModel)]="data.producto">
+     </mat-form-field>
+  <div mat-dialog-actions>
+          <button mat-button (click)="onNoClick()">CERRAR</button>
+          <button mat-button [mat-dialog-close]="data.producto" (click)="ontoCart()" cdkFocusInitial>C O M P R A R</button>
   </div>
-  
-  <!-- mat-form-field>
-    <input matInput [(ngModel)]="data.animal">
-  </mat-form-field -->
-</div>
-<!--button mat-button [mat-dialog-close]="data.animal" cdkFocusInitial>X</button-->
+  </div>
