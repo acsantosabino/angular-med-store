@@ -5,13 +5,13 @@ import inventario from '../../data/inventario.json';
 @Component({
   selector: 'app-carrossel-produtos',
   templateUrl: './carrossel-produtos.component.html',
-  styleUrls: ['./carrossel-produtos.component.sass']
+  styleUrls: ['./carrossel-produtos.component.scss']
 })
 export class CarrosselProdutosComponent implements OnInit {
   produtosExibidos: Produto[];
   length: number = ELEMENT_DATA_PROD.length;
   pageSize = 3;
-  pageSizeOptions: number[] = [1, 3, 5];
+  pageSizeOptions: number[] = [3,5];
 
   constructor() {
     console.log(ELEMENT_DATA_PROD);

@@ -24,3 +24,16 @@ $my-app-theme: mat-light-theme($my-app-primary, $my-app-accent, $my-app-warn);
 // that you are using.
 @include angular-material-theme($my-app-theme);
 // @include my-app-theme($my-app-theme);
+
+//Fonte para utilização no site
+@import url('https://fonts.googleapis.com/css?family=Aleo|Cinzel|Libre+Baskerville|Montserrat|Raleway|Roboto+Mono|Source+Sans+Pro');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Aleo', serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Libre Baskerville', serif;
+    // font-family: 'Cinzel', serif;
+}

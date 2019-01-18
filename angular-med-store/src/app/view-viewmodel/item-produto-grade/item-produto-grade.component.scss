@@ -1,0 +1,29 @@
+a, a::after, a:default{
+    text-decoration: none;
+    color: #333;
+}
+a:hover{
+    
+}
+
+a h1{
+    font-size: 1em;
+}
+
+.carrosselItemProduto{
+    width: 200px;
+    padding: 20px;
+    h1{
+        height: 4em;
+        overflow: hidden;
+    }
+}
+
+.carrosselItemProduto:hover{
+    box-shadow: 3px 3px 3px 3px #dddee4;
+    color: #00adef;
+    text-decoration: underline;
+    span{
+        text-decoration: none;
+    }
+}
