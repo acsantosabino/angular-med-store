@@ -1,6 +1,8 @@
+@import '../styles.scss';
 
 header{
-    background-color: #00abdf;
+    // background-color: #00abdf;
+    background-color: mat-color($my-app-primary, 500);
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 
