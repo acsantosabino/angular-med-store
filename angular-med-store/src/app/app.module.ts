@@ -8,14 +8,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ModelModule } from './model';
 import { HomeComponent,
-          CarrinhoIndicadorComponent,
-          CarrinhoPageComponent,
-          CarrosselProdutosComponent,
-          ItemProdutoGradeComponent,
-          ListaVerticalComponent, 
-          CompraComponent } from './view-viewmodel';
-import { DialogData, 
-          DialogDataDialog} from './view-viewmodel/dialog-data/dialog-data.component';
+  CarrinhoIndicadorComponent,
+  CarrinhoPageComponent,
+  CarrosselProdutosComponent,
+  ItemProdutoGradeComponent,
+  ListaVerticalComponent, 
+  CompraComponent } from './view-viewmodel';
+import {DialogData, DialogDataDialog} from './view-viewmodel/dialog-data/dialog-data.component';
  
 @NgModule({
   declarations: [
@@ -27,8 +26,7 @@ import { DialogData,
     ItemProdutoGradeComponent,
     ListaVerticalComponent,
     CompraComponent,
-    DialogData, 
-    DialogDataDialog
+    DialogData, DialogDataDialog
   ],
   imports: [
     FormsModule,
@@ -38,14 +36,8 @@ import { DialogData,
     MaterialModule,
     BrowserAnimationsModule,
   ],
-  entryComponents: [
-    DialogData, 
-    DialogDataDialog
-  ],
-  bootstrap: [
-    AppComponent, 
-    DialogData 
-  ],
+  entryComponents: [DialogData, DialogDataDialog],
+    bootstrap: [AppComponent, DialogData ],
   providers: []
 })
 export class AppModule { }

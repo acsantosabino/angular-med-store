@@ -1,11 +1,10 @@
 import { Component, OnInit, Inject } from '@angular/core';
-import {MatDialog, MAT_DIALOG_DATA} from '@angular/material';
-import { analyzeAndValidateNgModules } from '@angular/compiler';
-
+import {MatDialog, MAT_DIALOG_DATA, MatDialogRef} from '@angular/material';
 
 export interface DialogData {
-  id: '1' | '2' | '3'| '4' | '5' | '6' | '7' | '8' | '9';
-  usuario: 'Andres' | 'Sergio' | 'Karla' | 'Diego' | 'Javier' | 'Frank' | 'Viera' | 'Lizeth' | 'Jenny';
+  producto:string;
+  nombre:string;
+  cantidad:number;
 }
 
 @Component({
@@ -15,16 +14,27 @@ export interface DialogData {
 })
 
   export class DialogData {
+
+    producto:string;
+    nombre:string;
+    cantidad:number;
+
   constructor(public dialog: MatDialog) {}
 
-  openDialog() {
-    this.dialog.open(DialogDataDialog, {
-      data: {
-        usuario: 'andres'
-      }
-     
+  openDialog():void {
+      const dialogRef = this.dialog.open(DialogDataDialog, {
+        data: {nombre: this.nombre,producto: this.producto}
+    });
+
+    dialogRef.afterClosed().subscribe(result => {
+      console.log('The dialog was closed');
+      this.producto = result;
     });
   }  
+
+  gotoCompra() {
+  //  this.router.navigateByUrl('/compra');
+  }
 
 
 }
@@ -36,7 +46,14 @@ export interface DialogData {
 })
 
 export class DialogDataDialog {
-  constructor(@Inject(MAT_DIALOG_DATA) public data: DialogData) {}
+  
+   constructor(
+    public dialogRef: MatDialogRef<DialogDataDialog>,
+    @Inject(MAT_DIALOG_DATA) public data: DialogData) {}
+
+  onNoClick(): void {
+    this.dialogRef.close();
+  }
 }
 
 

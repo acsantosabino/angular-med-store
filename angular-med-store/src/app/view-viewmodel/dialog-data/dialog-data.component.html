@@ -1,2 +1,11 @@
-<button mat-button (click)="openDialog()">PRODUCTO 1 - ESTETOSCOPIO</button>
-
+   <ol><li>   <mat-form-field>
+        <input matInput [(ngModel)]="nombre" value="Estetoscopio">
+        </mat-form-field>
+      </li><li>
+      <button mat-raised-button (click)="openDialog()">Detalle</button>
+    </li>
+      
+        <li *ngIf="producto">
+        Cantidad: <i>{{producto.cantidad}}</i>
+        </li>
+      </ol>

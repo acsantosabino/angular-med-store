@@ -13,6 +13,10 @@ export class CarrinhoCompras {
         return this.listaCompras;
     }
 
+    getQntItens() {
+        return this.listaCompras.length;
+    }
+
     getValorTotal() {
         let total = 0;
 
@@ -25,7 +29,7 @@ export class CarrinhoCompras {
 
     setListaCompras(lista: Compra[]) {
         this.listaCompras = lista;
-        this._listaComprasChanged.emit(this.listaCompras);
+        return this.getQntItens();
     }
 
     addItem(itemCompra: Compra) {
@@ -38,15 +42,8 @@ export class CarrinhoCompras {
 
     removeItem(itemCompra: Compra) {
         const index = this.listaCompras.indexOf(itemCompra);
-        if (index >= 0) {
-            this.listaCompras.splice(index, 1);
-            this._listaComprasChanged.emit(this.listaCompras);
-        } else {
-            console.log('Item não encontrado');
-            console.log(this.listaCompras);
-            console.log(itemCompra);
-            console.log(index);
-        }
+        this.listaCompras.splice(index, 1);
+        this._listaComprasChanged.emit(this.listaCompras);
     }
 
     updateItem(itemCompra: Compra, index: number) {

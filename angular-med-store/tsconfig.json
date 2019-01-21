@@ -7,8 +7,6 @@
     "declaration": false,
     "module": "es2015",
     "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "esModuleInterop": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "importHelpers": true,

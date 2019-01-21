@@ -10,29 +10,58 @@ import { Router, ActivatedRoute } from '@angular/router';
   styleUrls: ['./carrinho-page.component.scss']
 })
 export class CarrinhoPageComponent implements OnInit {
-  public totalCarrinho = 0;
-  private readonly _listaComprasChangedSubscription: Subscription;
 
-  constructor(
-    protected readonly carrinho: CarrinhoCompras,
-    private router: Router) {
+  protected dataSource: MatTableDataSource<Compra>;
+  private readonly _listaComprasChangedSubscription: Subscription;
+  protected displayedColumns: string[] = [
+    'Produto',
+    'PrecoUnit',
+    'Quantidade',
+    'Total'];
+
+  constructor(private carrinho: CarrinhoCompras,
+    private route: ActivatedRoute,
+    private router: Router
+    ) {
+    this.dataSource = new MatTableDataSource(this.carrinho.getListaCompras());
 
     this._listaComprasChangedSubscription =
       this.carrinho.listaComprasChanged
         .subscribe(listaCompras => {
-          this.calculaTotal(listaCompras);
+          this.dataSource = new MatTableDataSource(listaCompras);
         });
+
   }
 
-  calculaTotal(listaCompras: Compra[]) {
-    this.totalCarrinho = 0;
-    for (const compra of listaCompras) {
-      this.totalCarrinho += compra.total;
-    }
-  }
   ngOnInit() {
+    this.carrinho.setListaCompras(ELEMENT_DATA_COMPRA);
   }
 
+  estoqueQnt(estoque: number) {
+    const lista = Array.from(new Array(estoque), (val, index) => index + 1);
+    return lista;
+  }
+
+  totalCarrinho() {
+    let totalCarrinho = 0;
+
+    for (const compra of this.dataSource.data) {
+      totalCarrinho += compra.total;
+    }
+
+    return totalCarrinho;
+  }
+
+  removeItem(item: Compra) {
+    this.carrinho.removeItem(item);
+  }
+
+  changeItemQnt(item: Compra, qnt: number) {
+    const index = this.dataSource.data.indexOf(item);
+    item.quantidade = qnt;
+    item.total = item.precoUnit * qnt;
+    this.carrinho.updateItem(item, qnt);
+  }
   gotoCompra() {
     this.router.navigateByUrl('/compra');
   }

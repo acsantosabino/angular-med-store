@@ -1,4 +1,7 @@
+// @import '~@angular/material/theming';
 @import '../../../styles.scss';
+
+@include mat-core();
 $icon-size: 55px;
 
 .carrinho-indicador {
@@ -6,7 +9,7 @@ $icon-size: 55px;
     border-radius: 50%;
     height: $icon-size;
     width: $icon-size;
-    //display: flex;
+    display: flex;
     justify-content: center;
 }
 .mat-icon {

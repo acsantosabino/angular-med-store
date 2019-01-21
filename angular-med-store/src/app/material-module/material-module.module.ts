@@ -35,9 +35,7 @@ import {
   MatToolbarModule,
   MatTooltipModule,
   MatTreeModule,
-  MatPaginatorIntl,
-} from '@angular/material';
-import { MatPaginatorIntlPTBR } from './customization/MatPaginatorIntl-pt-BR';
+         } from '@angular/material';
 
 @NgModule({
   declarations: [],
@@ -77,9 +75,6 @@ import { MatPaginatorIntlPTBR } from './customization/MatPaginatorIntl-pt-BR';
     MatToolbarModule,
     MatTooltipModule,
     MatTreeModule,
-  ],
-  providers: [
-    { provide: MatPaginatorIntl, useClass: MatPaginatorIntlPTBR }
-  ],
+  ]
 })
 export class MaterialModule { }

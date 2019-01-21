@@ -20,7 +20,7 @@
         <mat-form-field class="qnt-select">
           <mat-select
             [(value)]="element.quantidade"
-            (selectionChange)="changeItemQnt(element, $event.value);"
+            (selectionChange)="changeItemQnt(element, $event.value)"
           >
             <mat-option
               *ngFor="let num of estoqueQnt(element.estoque)"
@@ -31,7 +31,7 @@
           </mat-select>
         </mat-form-field>
         <br />
-        <button mat-button (click)="removeItem(element);">Remover</button>
+        <button mat-button (click)="removeItem(element)">Remover</button>
       </td>
     </ng-container>
 

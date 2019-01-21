@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CarrinhoCompras, ELEMENT_DATA_COMPRA } from 'src/app/model';
 import { Router, ActivatedRoute } from '@angular/router';
-import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-carrinho-indicador',
@@ -11,22 +10,21 @@ import { Subscription } from 'rxjs';
 export class CarrinhoIndicadorComponent implements OnInit {
 
   public qntItens = 0;
-  private readonly _listaComprasChangedSubscription: Subscription;
 
   constructor(
-    protected readonly carrinho: CarrinhoCompras,
+    private carrinho: CarrinhoCompras,
+    private route: ActivatedRoute,
     private router: Router) {
+    this.updateIndicator();
+  }
 
-    this._listaComprasChangedSubscription =
-      this.carrinho.listaComprasChanged
-        .subscribe(listaCompras => {
-          this.qntItens = listaCompras.length;
-        });
+  updateIndicator() {
+    this.qntItens = this.carrinho.getQntItens();
   }
 
   ngOnInit() {
-    const lista = JSON.parse(window.localStorage.getItem('cart'));
-    this.carrinho.setListaCompras(lista);
+    this.carrinho.setListaCompras(ELEMENT_DATA_COMPRA);
+    this.updateIndicator();
   }
 
   goToCart() {

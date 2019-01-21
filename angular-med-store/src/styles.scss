@@ -10,11 +10,7 @@
 // Define the palettes for your theme using the Material Design palettes available in palette.scss
 // (imported above). For each palette, you can optionally specify a default, lighter, and darker
 // hue. Available color palettes: https://material.io/design/color/
-$primary-default: 500;
-$primary-light: 50;
-$primary-dark: 200;
-$my-app-primary: mat-palette($mat-indigo, $primary-default, $primary-light, $primary-dark);
-$my-app-primary-light: mat-palette($mat-indigo);
+$my-app-primary: mat-palette($mat-indigo);
 $my-app-accent:  mat-palette($mat-teal);
 
 // The warn palette is optional (defaults to red).
@@ -28,16 +24,3 @@ $my-app-theme: mat-light-theme($my-app-primary, $my-app-accent, $my-app-warn);
 // that you are using.
 @include angular-material-theme($my-app-theme);
 // @include my-app-theme($my-app-theme);
-
-//Fonte para utilização no site
-@import url('https://fonts.googleapis.com/css?family=Aleo|Cinzel|Libre+Baskerville|Montserrat|Raleway|Roboto+Mono|Source+Sans+Pro');
-
-body{
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Aleo', serif;
-    font-family: 'Roboto Mono', monospace;
-    font-family: 'Libre Baskerville', serif;
-    // font-family: 'Cinzel', serif;
-}

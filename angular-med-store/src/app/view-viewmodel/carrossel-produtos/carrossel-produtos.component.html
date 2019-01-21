@@ -1,5 +1,6 @@
+  <h1>Carrossel de produtos</h1>
   <div>
-    <div class="carrossel" *ngFor="let produto of produtosExibidos">
+    <div *ngFor="let produto of produtosExibidos">
         <app-item-produto-grade [produto]="produto"></app-item-produto-grade>
     </div>
   </div>
