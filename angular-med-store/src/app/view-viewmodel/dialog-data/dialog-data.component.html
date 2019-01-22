@@ -1,24 +1,7 @@
-   <!--ol><li>   <mat-form-field>
-        <input matInput [(ngModel)]="nombre" value="Estetoscopio">
-        </mat-form-field>
-      </li><li>
-      <button mat-raised-button (click)="openDialog()">Detalle</button>
-    </li>
-      
-        <li *ngIf="producto">
-        Cantidad: <i>{{producto.cantidad}}</i>
-        </li>
-      </ol-->
-      <div class="container">
-        <div style="text-align:center">
-          <!--h1>{{title}}!</h1-->
-          <h2>Loja de instrumentos Medicos e Hospitalar</h2>
-    
-        <div class="row" id="usuarios"></div>  
-    
-        <mat-grid-list cols="3" rowHeight="2:1">
-          <div *ngFor="let usuario of usuarios" (click)="openDialog()">
-            <mat-grid-tile> {{usuario.nombre}}</mat-grid-tile>
-              </div>
-        </mat-grid-list>
-    </div>
+<mat-grid-list cols="3" rowHeight="2:1">
+  <div *ngFor="let usuario of usuarios" (click)="openDialog(usuario)">
+      <mat-grid-tile> {{usuario.nombre}}</mat-grid-tile>
+  </div>
+</mat-grid-list>
+<a href="#">
+

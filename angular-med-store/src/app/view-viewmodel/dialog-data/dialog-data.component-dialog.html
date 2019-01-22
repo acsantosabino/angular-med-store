@@ -1,50 +1,18 @@
-<h1 mat-dialog-title>{{data.nombre}}</h1>
-<div mat-dialog-content>
+<div class="izquierdo">
+    <mat-dialog-content>
+        <img src="assets/img/estetoscopio.jpg">
+     </mat-dialog-content>
+  
+</div>
 
-  <div class="izquierdo">
-    <img src="assets/img/estetoscopio.jpg">
-  </div>
+<div class="derecho">
+    <mat-dialog-content>
+      <h1 mat-dialog-title>Hi {{data.name}}</h1>      
+      <h2>Caracteristicas:</h2>
+    </mat-dialog-content>
 
-
-  <div class="derecho">
-    <h1 mat-dialog-title>{{usuario.nombre}}</h1>
-    <h1>ESTETOSCOPIO MODELO HSCJK382</h1>
-    <h2>COM PRESCICION 32783mm</h2>
-    <br />
-    <h2>Caracteristicas:</h2>
-      <ul>
-        <li>
-          <span *ngIf="data.producto === 'cureta'">&#10003;</span> Lente 323c optimizada flex xhsy
-        </li>
-        <li>
-          <span *ngFor="let usuario of data">{{data.producto}}</span> 35mm de precision
-        </li>
-        <li>
-          <span *ngIf="data.producto === 'oximetro'">&#10003;</span>etc etc
-        </li>
-      </ul>
-      <p>Indique la cantidad: </p>
-     <mat-form-field>
-         <input matInput [(ngModel)]="data.producto">
-     </mat-form-field>
-  <div mat-dialog-actions>
-          <!--button mat-button (click)="onNoClick()">CERRAR</button-->
-          <button mat-button [mat-dialog-close]="data.producto" (click)="ontoCart()" cdkFocusInitial>C O M P R A R</button>
-  </div>
-  </div>
-
-
-
-
-<!---ng-template #usuarioModal>
-    <div class="modal-header">
-      <h4 class="modal-title">{{usuario.nombre}}</h4>
-      </div>
-      <div class="modal-body">
-          <div>Id: {{usuario.id}}</div>
-          <div>Nombre: {{usuario.nombre}} </div>
-        </div>
-        <div class="modal-footer">
-          DESIGNED NETFANELY.COM
-          </div>
-  </ng-template-->
+    <mat-dialog-actions>
+      <button mat-button (click)="onNoClick()">cerrar</button>
+      <button mat-button [mat-dialog-close]="data" cdkFocusInitial>C O M P R A R</button>
+    </mat-dialog-actions>
+</div>

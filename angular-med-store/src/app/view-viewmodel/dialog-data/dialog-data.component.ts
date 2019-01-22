@@ -1,5 +1,6 @@
-import { Component, OnInit, Inject } from '@angular/core';
+import { Component, OnInit, Inject,  Input } from '@angular/core';
 import {MatDialog, MAT_DIALOG_DATA, MatDialogRef} from '@angular/material';
+import { Produto } from 'src/app/model';
 
 export interface DialogData {
 }
@@ -11,6 +12,7 @@ export interface DialogData {
 })
 
   export class DialogData {
+    
     title = 'Bienvenidos a Angular Medical Store';
     usuario:any;
     usuarios:any[] = [
@@ -24,20 +26,19 @@ export interface DialogData {
        {id: 8, nombre:'Bisturies'},
        {id: 9, nombre:'Martelo'}
     ];
-    animal:string;
-    name:string;
+    variable:string;
 
   constructor(public dialog: MatDialog) {}
 
-  openDialog():void {
+  openDialog(user:any):void {
       const dialogRef = this.dialog.open(
         DialogDataDialog, {
-          data:{name:this.name,animal: this.animal}
+          width:'700px',
+          data:{id:user.id, name:user.nombre}
     });
-
     dialogRef.afterClosed().subscribe(result => {
       console.log('The dialog was closed');
-      this.animal = result;
+      this.variable = result;
     });
   }  
  }
@@ -49,7 +50,7 @@ export interface DialogData {
 })
 
 export class DialogDataDialog {
-  
+    @Input() produto: Produto;
    constructor(
     public dialogRef: MatDialogRef<DialogDataDialog>,
     @Inject(MAT_DIALOG_DATA) public data: DialogData) {}
