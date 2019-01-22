@@ -1,19 +1,22 @@
 import { Component, OnInit } from '@angular/core';
 import {PageEvent} from '@angular/material';
 import { ELEMENT_DATA_PROD, Produto } from './../../model/produto/Produto';
-import inventario from '../../data/inventario.json';
+import { EstoqueService } from 'src/app/services/estoque.service';
+
 @Component({
   selector: 'app-carrossel-produtos',
   templateUrl: './carrossel-produtos.component.html',
   styleUrls: ['./carrossel-produtos.component.scss']
 })
 export class CarrosselProdutosComponent implements OnInit {
+  inventario: Produto[];
   produtosExibidos: Produto[];
   length: number = ELEMENT_DATA_PROD.length;
   pageSize = 3;
   pageSizeOptions: number[] = [3,5];
 
-  constructor() {
+  constructor(estoque: EstoqueService) {
+    this.inventario = estoque.getEstoque();
     console.log(ELEMENT_DATA_PROD);
     console.log('Tamanho: ' + ELEMENT_DATA_PROD.length);
    }
@@ -26,7 +29,7 @@ export class CarrosselProdutosComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.produtosExibidos = this.constroiListaExibicao( inventario, 0, this.pageSize );
+    this.produtosExibidos = this.constroiListaExibicao( this.inventario, 0, this.pageSize );
   }
 
   mudarPagina(evento) {
