@@ -34,6 +34,7 @@ export class CarrinhoPageComponent implements OnInit {
   }
 
   gotoCompra() {
+    this.carrinho.finalizarCompra();
     this.router.navigateByUrl('/compra');
   }
 }
