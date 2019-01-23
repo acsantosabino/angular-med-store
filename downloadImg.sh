@@ -21,12 +21,15 @@ while true; do
     OLD="\"nome\": \"$NAME\","
     IMGNAME=${NAME// /-}
 
-    NEW="    \"imgPath\": \"assets/img/$IMGNAME.jpg\""
+    NEW="    \"imgPath\": \"assets/img/$IMGNAME.jpg\","
 
     IMG="./angular-med-store/src/assets/img/$IMGNAME.jpg"
-    wget -O $IMG $LINK
     LINE=$(grep -rnw $INVENT -e "$OLD" | cut -f1 -d:)
-    ELINE=$(($LINE+3))
-    sed -i "${ELINE}s|.*|$NEW|" $INVENT
+    if [[ $LINE -ne 0 ]]
+    then
+        wget -O $IMG $LINK
+        ELINE=$(($LINE+3))
+        sed -i "${ELINE}s|.*|$NEW|" $INVENT
+    fi
 
 done
