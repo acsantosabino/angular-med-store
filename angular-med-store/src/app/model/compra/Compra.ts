@@ -1,8 +1,14 @@
 import { Produto } from '../produto/Produto';
 
 export class Compra extends Produto {
-  quantidade: number;
-  total: number;
+  constructor(prod: Produto, public quantidade: number, public total: number) {
+    super(prod.id,
+      prod.nome,
+      prod.precoUnit,
+      prod.estoque,
+      prod.imgPath,
+      prod.caracteristcas);
+  }
 }
 
 export const ELEMENT_DATA_COMPRA: Compra[] = [
@@ -13,7 +19,13 @@ export const ELEMENT_DATA_COMPRA: Compra[] = [
     quantidade: 5,
     total: 1199.85,
     estoque: 20,
-    imgPath: 'assets/img/blood-pressure.jpg'
+    imgPath: 'assets/img/blood-pressure.jpg',
+    caracteristcas: [
+      'I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.',
+      'You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.',
+      'Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.',
+      'Fanboi, because of Flash, once death-grip.'
+    ]
   },
   {
     id: '#',
@@ -22,7 +34,13 @@ export const ELEMENT_DATA_COMPRA: Compra[] = [
     quantidade: 6,
     total: 503.82,
     estoque: 20,
-    imgPath: 'assets/img/pressaodigital.jpg'
+    imgPath: 'assets/img/pressaodigital.jpg',
+    caracteristcas: [
+      'I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.',
+      'You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.',
+      'Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.',
+      'Fanboi, because of Flash, once death-grip.'
+    ]
   },
   {
     id: '#',
@@ -31,7 +49,13 @@ export const ELEMENT_DATA_COMPRA: Compra[] = [
     quantidade: 3,
     total: 3917.25,
     estoque: 20,
-    imgPath: 'assets/img/otoscopio.jpg'
+    imgPath: 'assets/img/otoscopio.jpg',
+    caracteristcas: [
+      'I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.',
+      'You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.',
+      'Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.',
+      'Fanboi, because of Flash, once death-grip.'
+    ]
   },
   {
     id: '#',
@@ -40,7 +64,13 @@ export const ELEMENT_DATA_COMPRA: Compra[] = [
     quantidade: 10,
     total: 2499.7,
     estoque: 20,
-    imgPath: 'assets/img/oximetro.jpg'
+    imgPath: 'assets/img/oximetro.jpg',
+    caracteristcas: [
+      'I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.',
+      'You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.',
+      'Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.',
+      'Fanboi, because of Flash, once death-grip.'
+    ]
   },
   {
     id: '#',
@@ -49,7 +79,13 @@ export const ELEMENT_DATA_COMPRA: Compra[] = [
     quantidade: 1,
     total: 167.97,
     estoque: 20,
-    imgPath: 'assets/img/minincubadora.jpg'
+    imgPath: 'assets/img/minincubadora.jpg',
+    caracteristcas: [
+      'I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.',
+      'You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.',
+      'Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.',
+      'Fanboi, because of Flash, once death-grip.'
+    ]
   },
   {
     id: '#',
@@ -58,7 +94,13 @@ export const ELEMENT_DATA_COMPRA: Compra[] = [
     quantidade: 4,
     total: 1555.84,
     estoque: 20,
-    imgPath: 'assets/img/lanterna.jpg'
+    imgPath: 'assets/img/lanterna.jpg',
+    caracteristcas: [
+      'I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.',
+      'You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.',
+      'Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.',
+      'Fanboi, because of Flash, once death-grip.'
+    ]
   },
   {
     id: '#',
@@ -67,6 +109,12 @@ export const ELEMENT_DATA_COMPRA: Compra[] = [
     quantidade: 5,
     total: 809.85,
     estoque: 20,
-    imgPath: 'assets/img/medidorglicemia.jpeg'
+    imgPath: 'assets/img/medidorglicemia.jpeg',
+    caracteristcas: [
+      'I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.',
+      'You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.',
+      'Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.',
+      'Fanboi, because of Flash, once death-grip.'
+    ]
   }
 ];

@@ -14,7 +14,7 @@ export class CarrinhoIndicadorComponent implements OnInit {
   private readonly _listaComprasChangedSubscription: Subscription;
 
   constructor(
-    protected readonly carrinho: CarrinhoCompras,
+    private carrinho: CarrinhoCompras,
     private router: Router) {
 
     this._listaComprasChangedSubscription =
@@ -25,8 +25,8 @@ export class CarrinhoIndicadorComponent implements OnInit {
   }
 
   ngOnInit() {
-    const lista = JSON.parse(window.localStorage.getItem('cart'));
-    this.carrinho.setListaCompras(lista);
+    // const lista = JSON.parse(window.localStorage.getItem('cart'));
+    // this.carrinho.setListaCompras(lista);
   }
 
   goToCart() {

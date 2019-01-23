@@ -11,7 +11,7 @@ export class CarrosselProdutosComponent implements OnInit {
   produtosExibidos: Produto[];
   length: number = ELEMENT_DATA_PROD.length;
   pageSize = 3;
-  pageSizeOptions: number[] = [3,5];
+  pageSizeOptions: number[] = [3, 5];
 
   constructor() {
     console.log(ELEMENT_DATA_PROD);
