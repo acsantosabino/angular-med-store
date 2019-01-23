@@ -810,7 +810,7 @@
     "nome": "espectrofotômetro",
     "estoque": 240,
     "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
+    "imgPath": "assets/img/espectrofotômetro.jpg",
     "caracteristcas": [
       "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
       "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
@@ -823,7 +823,7 @@
     "nome": "estufa",
     "estoque": 451,
     "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
+    "imgPath": "assets/img/estufa.jpg",
     "caracteristcas": [
       "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
       "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
@@ -836,7 +836,7 @@
     "nome": "fonocardiógrafo",
     "estoque": 306,
     "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
+    "imgPath": "assets/img/fonocardiógrafo.jpg",
     "caracteristcas": [
       "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
       "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
@@ -849,7 +849,7 @@
     "nome": "forno de bier",
     "estoque": 168,
     "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
+    "imgPath": "assets/img/forno-de-bier.jpg",
     "caracteristcas": [
       "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
       "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
@@ -862,33 +862,7 @@
     "nome": "gama câmara",
     "estoque": 717,
     "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
-    "caracteristcas": [
-      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
-      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
-      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
-      "Fanboi, because of Flash, once death-grip."
-    ]
-  },
-  {
-    "id": 522,
-    "nome": "geladeira",
-    "estoque": 679,
-    "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
-    "caracteristcas": [
-      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
-      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
-      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
-      "Fanboi, because of Flash, once death-grip."
-    ]
-  },
-  {
-    "id": 713,
-    "nome": "grupo gerador",
-    "estoque": 660,
-    "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
+    "imgPath": "assets/img/gama-câmara.jpg",
     "caracteristcas": [
       "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
       "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
@@ -901,7 +875,7 @@
     "nome": "hemodialisador peritonial",
     "estoque": 160,
     "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
+    "imgPath": "assets/img/hemodialisador-peritonial.jpg",
     "caracteristcas": [
       "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
       "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
@@ -914,7 +888,7 @@
     "nome": "incubadora",
     "estoque": 874,
     "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
+    "imgPath": "assets/img/incubadora.jpg",
     "caracteristcas": [
       "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
       "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
@@ -927,7 +901,7 @@
     "nome": "incubadora de transporte",
     "estoque": 601,
     "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
+    "imgPath": "assets/img/incubadora-de-transporte.jpg",
     "caracteristcas": [
       "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
       "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
@@ -940,7 +914,7 @@
     "nome": "lâmpada cirúrgica",
     "estoque": 673,
     "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
+    "imgPath": "assets/img/lâmpada-cirúrgica.jpg",
     "caracteristcas": [
       "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
       "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
@@ -953,7 +927,7 @@
     "nome": "lâmpada de fenda ou biorrefrator",
     "estoque": 462,
     "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
+    "imgPath": "assets/img/lâmpada-de-fenda-ou-biorrefrator.jpg",
     "caracteristcas": [
       "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
       "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
@@ -966,7 +940,7 @@
     "nome": "laser cirúrgico",
     "estoque": 397,
     "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
+    "imgPath": "assets/img/laser-cirúrgico.jpg",
     "caracteristcas": [
       "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
       "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
@@ -979,7 +953,7 @@
     "nome": "lensômetro",
     "estoque": 319,
     "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
+    "imgPath": "assets/img/lensômetro.jpg",
     "caracteristcas": [
       "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
       "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
@@ -992,7 +966,7 @@
     "nome": "litotriptor",
     "estoque": 470,
     "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
+    "imgPath": "assets/img/litotriptor.jpg",
     "caracteristcas": [
       "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
       "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
@@ -1018,7 +992,7 @@
     "nome": "marca passo externo",
     "estoque": 785,
     "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
+    "imgPath": "assets/img/marca-passo-externo.jpg",
     "caracteristcas": [
       "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
       "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
@@ -1031,7 +1005,7 @@
     "nome": "medidor de débito cardíaco",
     "estoque": 330,
     "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
+    "imgPath": "assets/img/medidor-de-débito-cardíaco.jpg",
     "caracteristcas": [
       "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
       "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
@@ -1044,7 +1018,7 @@
     "nome": "mesa cirúrgica",
     "estoque": 929,
     "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
+    "imgPath": "assets/img/mesa-cirúrgica.jpg",
     "caracteristcas": [
       "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
       "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
@@ -1057,7 +1031,7 @@
     "nome": "micro-motor para equipo",
     "estoque": 769,
     "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
+    "imgPath": "assets/img/micro-motor-para-equipo.jpg",
     "caracteristcas": [
       "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
       "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
@@ -1070,7 +1044,7 @@
     "nome": "microscópio analítico odontológico",
     "estoque": 477,
     "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
+    "imgPath": "assets/img/microscópio-analítico-odontológico.jpg",
     "caracteristcas": [
       "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
       "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
@@ -1083,7 +1057,7 @@
     "nome": "microscópio cirúrgico",
     "estoque": 774,
     "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
+    "imgPath": "assets/img/microscópio-cirúrgico.jpg",
     "caracteristcas": [
       "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
       "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
@@ -1096,7 +1070,7 @@
     "nome": "monitor de ECG",
     "estoque": 682,
     "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
+    "imgPath": "assets/img/monitor-de-ECG.jpg",
     "caracteristcas": [
       "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
       "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
@@ -1109,7 +1083,7 @@
     "nome": "monitor de temperatura",
     "estoque": 261,
     "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
+    "imgPath": "assets/img/monitor-de-temperatura.jpg",
     "caracteristcas": [
       "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
       "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
@@ -1122,7 +1096,7 @@
     "nome": "monitor fetal",
     "estoque": 976,
     "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
+    "imgPath": "assets/img/monitor-fetal.jpg",
     "caracteristcas": [
       "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
       "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
@@ -1135,7 +1109,7 @@
     "nome": "monitores de apnea",
     "estoque": 59,
     "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
+    "imgPath": "assets/img/monitores-de-apnea.jpg",
     "caracteristcas": [
       "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
       "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
@@ -1148,7 +1122,7 @@
     "nome": "monitores de oxigênio (neonatal)",
     "estoque": 257,
     "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
+    "imgPath": "assets/img/monitores-de-oxigênio-(neonatal).jpg",
     "caracteristcas": [
       "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
       "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
@@ -1161,7 +1135,7 @@
     "nome": "monitores de pressão",
     "estoque": 713,
     "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
+    "imgPath": "assets/img/monitores-de-pressao.jpg",
     "caracteristcas": [
       "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
       "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
@@ -1171,10 +1145,10 @@
   },
   {
     "id": 152,
-    "nome": "nebulizadores ultra",
+    "nome": "nebulizadores ultra sônicos",
     "estoque": 810,
     "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
+    "imgPath": "assets/img/nebulizadores-ultra-sônicos.jpg",
     "caracteristcas": [
       "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
       "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
@@ -1184,10 +1158,10 @@
   },
   {
     "id": 560,
-    "nome": "negatoscópio sônicos",
+    "nome": "negatoscópio",
     "estoque": 508,
     "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
+    "imgPath": "assets/img/negatoscópio.jpg",
     "caracteristcas": [
       "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
       "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
@@ -1200,7 +1174,7 @@
     "nome": "oftalmoscópio",
     "estoque": 514,
     "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
+    "imgPath": "assets/img/oftalmoscópio.jpg",
     "caracteristcas": [
       "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
       "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
@@ -1210,10 +1184,10 @@
   },
   {
     "id": 217,
-    "nome": "oftalmoscópio binocular",
+    "nome": "oftalmoscópio binocular indireto",
     "estoque": 186,
     "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
+    "imgPath": "assets/img/oftalmoscópio-binocular.jpg",
     "caracteristcas": [
       "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
       "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
@@ -1223,10 +1197,10 @@
   },
   {
     "id": 532,
-    "nome": "oftalmoscópio direto indireto",
+    "nome": "oftalmoscópio direto",
     "estoque": 66,
     "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
+    "imgPath": "assets/img/oftalmoscópio-direto.jpg",
     "caracteristcas": [
       "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
       "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
@@ -1239,7 +1213,7 @@
     "nome": "otoscópio",
     "estoque": 281,
     "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
+    "imgPath": "assets/img/otoscópio.jpg",
     "caracteristcas": [
       "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
       "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
@@ -1252,7 +1226,7 @@
     "nome": "oxímetro (pulso)",
     "estoque": 70,
     "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
+    "imgPath": "assets/img/oxímetro-(pulso).jpg",
     "caracteristcas": [
       "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
       "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
@@ -1265,7 +1239,7 @@
     "nome": "processadora de filme de raios-x",
     "estoque": 802,
     "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
+    "imgPath": "assets/img/processadora-de-filme-de-raios-x.jpg",
     "caracteristcas": [
       "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
       "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
@@ -1278,20 +1252,7 @@
     "nome": "projetor de optótipos",
     "estoque": 147,
     "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
-    "caracteristcas": [
-      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
-      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
-      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
-      "Fanboi, because of Flash, once death-grip."
-    ]
-  },
-  {
-    "id": 761,
-    "nome": "projetor de slides",
-    "estoque": 933,
-    "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
+    "imgPath": "assets/img/projetor-de-optótipos.jpg",
     "caracteristcas": [
       "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
       "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
@@ -1304,20 +1265,7 @@
     "nome": "refratômetro ou refrator",
     "estoque": 662,
     "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
-    "caracteristcas": [
-      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
-      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
-      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
-      "Fanboi, because of Flash, once death-grip."
-    ]
-  },
-  {
-    "id": 604,
-    "nome": "refrigerador comum",
-    "estoque": 463,
-    "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
+    "imgPath": "assets/img/refratômetro-ou-refrator.jpg",
     "caracteristcas": [
       "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
       "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
@@ -1327,10 +1275,10 @@
   },
   {
     "id": 987,
-    "nome": "refrigerador para bolsa de",
+    "nome": "refrigerador para bolsa de sangue",
     "estoque": 558,
     "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
+    "imgPath": "assets/img/refrigerador-para-bolsa-de-sangue.jpg",
     "caracteristcas": [
       "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
       "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
@@ -1340,10 +1288,10 @@
   },
   {
     "id": 963,
-    "nome": "réguas esquiascópico sangue",
+    "nome": "réguas esquiascópico",
     "estoque": 170,
     "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
+    "imgPath": "assets/img/réguas-esquiascópico.jpg",
     "caracteristcas": [
       "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
       "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
@@ -1356,7 +1304,7 @@
     "nome": "ressonância nuclear magnética",
     "estoque": 516,
     "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
+    "imgPath": "assets/img/ressonância-nuclear-magnética.jpg",
     "caracteristcas": [
       "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
       "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
@@ -1369,20 +1317,7 @@
     "nome": "retinoscópio",
     "estoque": 719,
     "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
-    "caracteristcas": [
-      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
-      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
-      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
-      "Fanboi, because of Flash, once death-grip."
-    ]
-  },
-  {
-    "id": 175,
-    "nome": "secadora de roupa (lavanderia)",
-    "estoque": 475,
-    "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
+    "imgPath": "assets/img/retinoscópio.jpg",
     "caracteristcas": [
       "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
       "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
@@ -1395,7 +1330,7 @@
     "nome": "serra de gesso",
     "estoque": 387,
     "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
+    "imgPath": "assets/img/serra-de-gesso.jpg",
     "caracteristcas": [
       "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
       "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
@@ -1405,23 +1340,10 @@
   },
   {
     "id": 659,
-    "nome": "sistema de monitoração",
+    "nome": "sistema de monitoração fisiológica",
     "estoque": 549,
     "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
-    "caracteristcas": [
-      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
-      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
-      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
-      "Fanboi, because of Flash, once death-grip."
-    ]
-  },
-  {
-    "id": 263,
-    "nome": "televisão fisiológica",
-    "estoque": 318,
-    "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
+    "imgPath": "assets/img/sistema-de-monitoração-fisiológica.jpg",
     "caracteristcas": [
       "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
       "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
@@ -1434,7 +1356,7 @@
     "nome": "tomógrafo",
     "estoque": 542,
     "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
+    "imgPath": "assets/img/tomógrafo.jpg",
     "caracteristcas": [
       "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
       "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
@@ -1447,46 +1369,7 @@
     "nome": "tonômetro",
     "estoque": 38,
     "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
-    "caracteristcas": [
-      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
-      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
-      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
-      "Fanboi, because of Flash, once death-grip."
-    ]
-  },
-  {
-    "id": 903,
-    "nome": "transformador de energia",
-    "estoque": 10,
-    "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
-    "caracteristcas": [
-      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
-      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
-      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
-      "Fanboi, because of Flash, once death-grip."
-    ]
-  },
-  {
-    "id": 923,
-    "nome": "umidificadores elétrica",
-    "estoque": 379,
-    "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
-    "caracteristcas": [
-      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
-      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
-      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
-      "Fanboi, because of Flash, once death-grip."
-    ]
-  },
-  {
-    "id": 619,
-    "nome": "unidade de autotransfusão",
-    "estoque": 301,
-    "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
+    "imgPath": "assets/img/tonômetro.jpg",
     "caracteristcas": [
       "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
       "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
@@ -1499,7 +1382,7 @@
     "nome": "unidade de diatermia",
     "estoque": 36,
     "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
+    "imgPath": "assets/img/unidade-de-diatermia.jpg",
     "caracteristcas": [
       "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
       "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
@@ -1512,7 +1395,7 @@
     "nome": "unidade de ondas curtas",
     "estoque": 437,
     "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
+    "imgPath": "assets/img/unidade-de-ondas-curtas.jpg",
     "caracteristcas": [
       "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
       "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
@@ -1525,7 +1408,7 @@
     "nome": "unidade de potencial evocado",
     "estoque": 570,
     "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
+    "imgPath": "assets/img/unidade-de-potencial-evocado.jpg",
     "caracteristcas": [
       "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
       "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
@@ -1538,20 +1421,7 @@
     "nome": "unidades de anestesia",
     "estoque": 855,
     "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
-    "caracteristcas": [
-      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
-      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
-      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
-      "Fanboi, because of Flash, once death-grip."
-    ]
-  },
-  {
-    "id": 508,
-    "nome": "ventilador (tipo eletrodoméstico)",
-    "estoque": 190,
-    "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
+    "imgPath": "assets/img/unidades-de-anestesia.jpg",
     "caracteristcas": [
       "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
       "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
@@ -1564,7 +1434,7 @@
     "nome": "ventilador para terapia",
     "estoque": 610,
     "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
+    "imgPath": "assets/img/ventilador-para-terapia.jpg",
     "caracteristcas": [
       "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
       "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
@@ -1577,7 +1447,7 @@
     "nome": "ventiladores anestésicos",
     "estoque": 610,
     "precoUnit": 239.97,
-    "imgPath": "assets/img/blood-pressure.jpg",
+    "imgPath": "assets/img/ventiladores-anestésicos.jpg",
     "caracteristcas": [
       "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
       "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
