@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { ELEMENT_DATA_COMPRA } from './model';
 
 @Component({
   selector: 'app-root',
