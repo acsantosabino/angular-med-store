@@ -1,21 +1,23 @@
 import { Component, OnInit } from '@angular/core';
 import {PageEvent} from '@angular/material';
-import { ELEMENT_DATA_PROD, Produto } from './../../model/produto/Produto';
-import inventario from '../../data/inventario.json';
+import { Produto } from './../../model/produto/Produto';
+import { EstoqueService } from 'src/app/services/estoque.service';
+
 @Component({
   selector: 'app-carrossel-produtos',
   templateUrl: './carrossel-produtos.component.html',
   styleUrls: ['./carrossel-produtos.component.scss']
 })
 export class CarrosselProdutosComponent implements OnInit {
+  inventario: Produto[];
   produtosExibidos: Produto[];
-  length: number = ELEMENT_DATA_PROD.length;
+  length: number;
   pageSize = 3;
   pageSizeOptions: number[] = [3, 5];
 
-  constructor() {
-    console.log(ELEMENT_DATA_PROD);
-    console.log('Tamanho: ' + ELEMENT_DATA_PROD.length);
+  constructor(estoque: EstoqueService) {
+    this.inventario = estoque.getEstoque();
+    this.length = this.inventario.length;
    }
 
      // MatPaginator Output
@@ -26,13 +28,13 @@ export class CarrosselProdutosComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.produtosExibidos = this.constroiListaExibicao( inventario, 0, this.pageSize );
+    this.produtosExibidos = this.constroiListaExibicao( this.inventario, 0, this.pageSize );
   }
 
   mudarPagina(evento) {
     const indiceInicio: number = evento.pageIndex * evento.pageSize;
     this.produtosExibidos =
-      this.constroiListaExibicao( ELEMENT_DATA_PROD, indiceInicio, evento.pageSize );
+      this.constroiListaExibicao( this.inventario, indiceInicio, evento.pageSize );
   }
 
   constroiListaExibicao(listaCheia: Produto[], indiceInicio: number, quantidade: number) {

@@ -1,5 +1,6 @@
 import { Injectable, EventEmitter } from '@angular/core';
 import {Compra} from '../compra/Compra';
+import { EstoqueService } from 'src/app/services/estoque.service';
 
 @Injectable()
 export class CarrinhoCompras {
@@ -8,6 +9,9 @@ export class CarrinhoCompras {
 
     readonly listaComprasChanged = this._listaComprasChanged.asObservable();
 
+    constructor(private estoque: EstoqueService){
+
+    }
 
     getListaCompras() {
         return this.listaCompras;
@@ -52,5 +56,11 @@ export class CarrinhoCompras {
     updateItem(itemCompra: Compra, index: number) {
         this.listaCompras[index] = itemCompra;
         this._listaComprasChanged.emit(this.listaCompras);
+    }
+
+    finalizarCompra(){
+        let listaCompraFinalizada = this.listaCompras;
+        this.estoque.abaterEstoque(listaCompraFinalizada);
+        this.setListaCompras([]);
     }
 }
