@@ -13,7 +13,7 @@ export class CarrosselProdutosComponent implements OnInit {
   produtosExibidos: Produto[];
   length: number;
   pageSize = 3;
-  pageSizeOptions: number[] = [3,5];
+  pageSizeOptions: number[] = [3, 5];
 
   constructor(estoque: EstoqueService) {
     this.inventario = estoque.getEstoque();

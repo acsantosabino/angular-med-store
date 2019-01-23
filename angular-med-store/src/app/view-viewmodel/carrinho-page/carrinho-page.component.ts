@@ -1,8 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { CarrinhoCompras, Compra, ELEMENT_DATA_COMPRA } from 'src/app/model';
-import { MatTableDataSource } from '@angular/material';
+import { CarrinhoCompras, Compra } from 'src/app/model';
 import { Subscription } from 'rxjs';
-import { Router, ActivatedRoute } from '@angular/router';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-carrinho-page',
@@ -31,6 +30,7 @@ export class CarrinhoPageComponent implements OnInit {
     }
   }
   ngOnInit() {
+    this.calculaTotal(this.carrinho.getListaCompras());
   }
 
   gotoCompra() {

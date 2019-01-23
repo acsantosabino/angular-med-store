@@ -12,11 +12,10 @@ import { HomeComponent,
           CarrinhoPageComponent,
           CarrosselProdutosComponent,
           ItemProdutoGradeComponent,
-          ListaVerticalComponent, 
-          CompraComponent } from './view-viewmodel';
-import { DialogData, 
-          DialogDataDialog} from './view-viewmodel/dialog-data/dialog-data.component';
- 
+          ListaVerticalComponent,
+          CompraComponent,
+          ProdutoDialogComponent } from './view-viewmodel';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,8 +26,7 @@ import { DialogData,
     ItemProdutoGradeComponent,
     ListaVerticalComponent,
     CompraComponent,
-    DialogData, 
-    DialogDataDialog
+    ProdutoDialogComponent
   ],
   imports: [
     FormsModule,
@@ -39,12 +37,10 @@ import { DialogData,
     BrowserAnimationsModule,
   ],
   entryComponents: [
-    DialogData, 
-    DialogDataDialog
+    ProdutoDialogComponent
   ],
   bootstrap: [
-    AppComponent, 
-    DialogData 
+    AppComponent,
   ],
   providers: []
 })

@@ -1,34 +1,35 @@
-<h1 mat-dialog-title>ESTETOSCOPIO</h1>
+<h1 mat-dialog-title>{{item.nome}}</h1>
 <div mat-dialog-content>
 
   <div class="izquierdo">
-    <img src="assets/img/estetoscopio.jpg">
-  </div>
-
-
-  <div class="derecho">
-    <h1>ESTETOSCOPIO MODELO HSCJK382</h1>
-    <h2>COM PRESCICION 32783mm</h2>
-    <br />
-    <h2>Caracteristicas:</h2>
-      <ul>
-        <li>
-          <span *ngIf="data.usuario === 'Andres'">&#10003;</span> Lente 323c optimizada flex xhsy
-        </li>
-        <li>
-          <span *ngFor="let usuario of data">{{data.usuario}}</span> 35mm de precision
-        </li>
-        <li>
-          <span *ngIf="data.usuario === 'Karla'">&#10003;</span>etc etc
-        </li>
-      </ul>
-      <div mat-dialog-actions class="botones">
-          <button mat-button (click)="onComprarClick()">Comprar</button>
-        </div>
+    <img [src]="item.imgPath">
+    <p>Qantidade: </p>
+    <mat-select
+    [(value)]="item.quantidade"
+    (selectionChange)="changeItemQnt($event.value);"
+  >
+    <mat-option
+      *ngFor="let num of estoqueQnt()"
+      [value]="num"
+    >
+      {{ num }}
+    </mat-option>
+  </mat-select>
+  <p>Valor:</p>
+  <p>R$ {{item.total}}</p>
   </div>
   
-  <!-- mat-form-field>
-    <input matInput [(ngModel)]="data.animal">
-  </mat-form-field -->
+  
+  <div class="derecho">
+    <h2>Caracteristicas:</h2>
+    <ul *ngFor="let caracteristicas of item.caracteristcas">
+      <li>
+        <span >{{caracteristicas}}</span>
+      </li>
+    </ul>
+  </div>
 </div>
-<!--button mat-button [mat-dialog-close]="data.animal" cdkFocusInitial>X</button-->
+<div mat-dialog-actions class="derecho">
+  <button mat-raised-button (click)="onNoClick()" color="warn">Fechar</button>
+  <button mat-raised-button [mat-dialog-close]="item.quantidade" (click)="gotoCart()" color="accent">C O M P R A R</button>
+</div>
