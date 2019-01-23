@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {PageEvent} from '@angular/material';
-import { ELEMENT_DATA_PROD, Produto } from './../../model/produto/Produto';
+import { Produto } from './../../model/produto/Produto';
 import { EstoqueService } from 'src/app/services/estoque.service';
 
 @Component({
@@ -11,14 +11,13 @@ import { EstoqueService } from 'src/app/services/estoque.service';
 export class CarrosselProdutosComponent implements OnInit {
   inventario: Produto[];
   produtosExibidos: Produto[];
-  length: number = ELEMENT_DATA_PROD.length;
+  length: number;
   pageSize = 3;
   pageSizeOptions: number[] = [3,5];
 
   constructor(estoque: EstoqueService) {
     this.inventario = estoque.getEstoque();
-    console.log(ELEMENT_DATA_PROD);
-    console.log('Tamanho: ' + ELEMENT_DATA_PROD.length);
+    this.length = this.inventario.length;
    }
 
      // MatPaginator Output
@@ -35,7 +34,7 @@ export class CarrosselProdutosComponent implements OnInit {
   mudarPagina(evento) {
     const indiceInicio: number = evento.pageIndex * evento.pageSize;
     this.produtosExibidos =
-      this.constroiListaExibicao( ELEMENT_DATA_PROD, indiceInicio, evento.pageSize );
+      this.constroiListaExibicao( this.inventario, indiceInicio, evento.pageSize );
   }
 
   constroiListaExibicao(listaCheia: Produto[], indiceInicio: number, quantidade: number) {
