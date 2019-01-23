@@ -1,63 +1,41 @@
-import { Component, OnInit, Inject,  Input } from '@angular/core';
-import {MatDialog, MAT_DIALOG_DATA, MatDialogRef} from '@angular/material';
-import { Produto } from 'src/app/model';
-
-export interface DialogData {
-}
+import { Component, OnInit, Inject, Input } from '@angular/core';
+import {MAT_DIALOG_DATA, MatDialogRef} from '@angular/material';
+import { Produto, Compra, CarrinhoCompras } from 'src/app/model';
+import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-dialog-data',
-  templateUrl: './dialog-data.component.html',
-  styleUrls: ['./dialog-data.component.scss']
-})
-
-  export class DialogData {
-    
-    title = 'Bienvenidos a Angular Medical Store';
-    usuario:any;
-    usuarios:any[] = [
-       {id: 1, nombre:'Estetoscopio'},
-       {id: 2, nombre:'Oximetro'},
-       {id: 3, nombre:'Glucometro'},
-       {id: 4, nombre:'Termometro'},
-       {id: 5, nombre:'Cardiometro'},
-       {id: 6, nombre:'Optometro'},
-       {id: 7, nombre:'Curetas'},
-       {id: 8, nombre:'Bisturies'},
-       {id: 9, nombre:'Martelo'}
-    ];
-    variable:string;
-
-  constructor(public dialog: MatDialog) {}
-
-  openDialog(user:any):void {
-      const dialogRef = this.dialog.open(
-        DialogDataDialog, {
-          width:'700px',
-          data:{id:user.id, name:user.nombre}
-    });
-    dialogRef.afterClosed().subscribe(result => {
-      console.log('The dialog was closed');
-      this.variable = result;
-    });
-  }  
- }
-
-@Component({
-  selector: 'dialog-data.component-dialog',
+  selector: 'app-dialog-data.component-dialog',
   templateUrl: 'dialog-data.component-dialog.html',
   styleUrls: ['./dialog-data.component-dialog.scss']
 })
 
-export class DialogDataDialog {
-    @Input() produto: Produto;
-   constructor(
-    public dialogRef: MatDialogRef<DialogDataDialog>,
-    @Inject(MAT_DIALOG_DATA) public data: DialogData) {}
+export class ProdutoDialogComponent {
 
-  onNoClick(): void {
-    this.dialogRef.close();
-  }
+  public item: Compra;
+
+  constructor(
+    public dialogRef: MatDialogRef<ProdutoDialogComponent>,
+    @Inject(MAT_DIALOG_DATA) readonly data: Produto,
+    protected readonly carrinho: CarrinhoCompras,
+    private router: Router) {
+      this.item = new Compra(data, 1, data.precoUnit);
+    }
+
+    onNoClick(): void {
+      this.dialogRef.close();
+    }
+    estoqueQnt() {
+      const lista = Array.from(new Array(this.data.estoque), (val, index) => index + 1);
+      return lista;
+    }
+    changeItemQnt(qnt: number) {
+      this.item.quantidade = qnt;
+      this.item.total = this.item.precoUnit * qnt;
+    }
+    gotoCart() {
+      this.carrinho.addItem(this.item);
+      this.router.navigateByUrl('/cart');
+    }
 }
 
 

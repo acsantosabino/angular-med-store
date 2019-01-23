@@ -1,18 +1,35 @@
-<div class="izquierdo">
-    <mat-dialog-content>
-        <img src="assets/img/estetoscopio.jpg">
-     </mat-dialog-content>
+<h1 mat-dialog-title>{{item.nome}}</h1>
+<div mat-dialog-content>
+
+  <div class="izquierdo">
+    <img [src]="item.imgPath">
+    <p>Qantidade: </p>
+    <mat-select
+    [(value)]="item.quantidade"
+    (selectionChange)="changeItemQnt($event.value);"
+  >
+    <mat-option
+      *ngFor="let num of estoqueQnt()"
+      [value]="num"
+    >
+      {{ num }}
+    </mat-option>
+  </mat-select>
+  <p>Valor:</p>
+  <p>R$ {{item.total}}</p>
+  </div>
   
+  
+  <div class="derecho">
+    <h2>Caracteristicas:</h2>
+    <ul *ngFor="let caracteristicas of item.caracteristcas">
+      <li>
+        <span >{{caracteristicas}}</span>
+      </li>
+    </ul>
+  </div>
 </div>
-
-<div class="derecho">
-    <mat-dialog-content>
-      <h1 mat-dialog-title>Hi {{data.name}}</h1>      
-      <h2>Caracteristicas:</h2>
-    </mat-dialog-content>
-
-    <mat-dialog-actions>
-      <button mat-button (click)="onNoClick()">cerrar</button>
-      <button mat-button [mat-dialog-close]="data" cdkFocusInitial>C O M P R A R</button>
-    </mat-dialog-actions>
+<div mat-dialog-actions class="derecho">
+  <button mat-raised-button (click)="onNoClick()" color="warn">CERRAR</button>
+  <button mat-raised-button [mat-dialog-close]="item.quantidade" (click)="gotoCart()" color="accent">C O M P R A R</button>
 </div>

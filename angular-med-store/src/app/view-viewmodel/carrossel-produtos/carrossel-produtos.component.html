@@ -1,6 +1,5 @@
-  <h1>Carrossel de produtos</h1>
   <div>
-    <div *ngFor="let produto of produtosExibidos">
+    <div class="carrossel" *ngFor="let produto of produtosExibidos">
         <app-item-produto-grade [produto]="produto"></app-item-produto-grade>
     </div>
   </div>
@@ -10,4 +9,4 @@
                 [pageSizeOptions]="pageSizeOptions"
                 (page)="mudarPagina($event)">
   </mat-paginator>
-  <app-dialog-data></app-dialog-data>
+  <!-- <app-dialog-data></app-dialog-data> -->

@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { CarrinhoCompras, Compra, ELEMENT_DATA_COMPRA } from 'src/app/model';
 import { MatTableDataSource } from '@angular/material';
 import { Subscription } from 'rxjs';
+import { dashCaseToCamelCase } from '@angular/compiler/src/util';
 
 @Component({
   selector: 'app-lista-vertical',
@@ -10,6 +11,7 @@ import { Subscription } from 'rxjs';
 })
 export class ListaVerticalComponent implements OnInit {
 
+  protected key = 'cart';
   public dataSource: MatTableDataSource<Compra>;
   private readonly _listaComprasChangedSubscription: Subscription;
   public readonly displayedColumns: string[] = [
@@ -24,13 +26,13 @@ export class ListaVerticalComponent implements OnInit {
     this._listaComprasChangedSubscription =
       this.carrinho.listaComprasChanged
         .subscribe(listaCompras => {
+          // window.localStorage.setItem(this.key, JSON.stringify(listaCompras));
           this.dataSource = new MatTableDataSource(listaCompras);
         });
 
   }
 
   ngOnInit() {
-    this.carrinho.setListaCompras(ELEMENT_DATA_COMPRA);
   }
 
   estoqueQnt(estoque: number) {
@@ -46,6 +48,6 @@ export class ListaVerticalComponent implements OnInit {
     const index = this.dataSource.data.indexOf(item);
     item.quantidade = qnt;
     item.total = item.precoUnit * qnt;
-    this.carrinho.updateItem(item, qnt);
+    this.carrinho.updateItem(item, index);
   }
 }
