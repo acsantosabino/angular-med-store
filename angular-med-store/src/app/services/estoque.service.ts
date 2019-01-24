@@ -6,8 +6,9 @@ import { Produto, Compra } from '../model/index.js';
   providedIn: 'root'
 })
 export class EstoqueService {
-  private listaProdutos: Produto[] = inventario;
 
+  private listaProdutos: Produto[] = inventario;
+  
   constructor() {
     
   }
