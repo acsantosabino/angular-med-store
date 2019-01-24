@@ -12,7 +12,7 @@
 
           <mat-card-content>
             <h3>Total</h3>
-            <p class="text-right">R$ {{totalCarrinho}}</p>
+            <p class="text-right">{{totalCarrinho|currency:'BRL'}}</p>
           </mat-card-content>
           <mat-card-actions>
             <button class="compra" mat-flat-button color="accent" (click)="gotoCompra();">Comprar</button>

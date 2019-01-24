@@ -3,7 +3,7 @@
 
   <div class="izquierdo">
     <img [src]="item.imgPath">
-    <p>Qantidade: </p>
+    <p>Quantidade: </p>
     <mat-select
     [(value)]="item.quantidade"
     (selectionChange)="changeItemQnt($event.value);"
@@ -16,7 +16,7 @@
     </mat-option>
   </mat-select>
   <p>Valor:</p>
-  <p>R$ {{item.total}}</p>
+  <p>{{item.precoUnit|currency:'BRL'}}</p>
   </div>
   
   
