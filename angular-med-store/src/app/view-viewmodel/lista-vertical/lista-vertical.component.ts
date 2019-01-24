@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { CarrinhoCompras, Compra} from '../../model';
+import { CarrinhoCompras, Compra } from 'src/app/model';
 import { MatTableDataSource } from '@angular/material';
 import { Subscription } from 'rxjs';
 import { dashCaseToCamelCase } from '@angular/compiler/src/util';

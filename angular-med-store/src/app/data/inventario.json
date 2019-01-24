@@ -1,9 +1,984 @@
 [
   {
-    "id": "#",
-    "nome": "Monitor de Pressão Arterial Automático",
+    "id": 123,
+    "nome": "acelerador linear",
+    "estoque": 981,
+    "precoUnit": 2366801.15,
+    "imgPath": "assets/img/acelerador-linear.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 869,
+    "nome": "agitador (laboratório)",
+    "estoque": 109,
+    "precoUnit": 2675.43,
+    "imgPath": "assets/img/agitador.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 281,
+    "nome": "amalgamador",
+    "estoque": 805,
+    "precoUnit": 1087.23,
+    "imgPath": "assets/img/amalgamador.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 771,
+    "nome": "aminoscópio",
+    "estoque": 146,
+    "precoUnit": 1817.88,
+    "imgPath": "assets/img/amnioscopio.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 563,
+    "nome": "analisador de função pulmonar",
+    "estoque": 963,
+    "precoUnit": 2836.75,
+    "imgPath": "assets/img/espirometro.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 190,
+    "nome": "analisador de oxigênio",
+    "estoque": 869,
+    "precoUnit": 3244.25,
+    "imgPath": "assets/img/oximetro-fixo.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 385,
+    "nome": "analisador sangüíneo",
+    "estoque": 656,
+    "precoUnit": 1215.60,
+    "imgPath": "assets/img/analisador-sanguineo.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 106,
+    "nome": "aquecedores de sangue",
+    "estoque": 158,
+    "precoUnit": 1287.00,
+    "imgPath": "assets/img/aquecedores-sangue.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 934,
+    "nome": "aspirador cirúrgico",
+    "estoque": 179,
+    "precoUnit": 361.80,
+    "imgPath": "assets/img/aspirador-cirurgico.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 199,
+    "nome": "aspirador torácico",
+    "estoque": 0,
+    "precoUnit": 3964.45,
+    "imgPath": "assets/img/aspirador-toracico.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 852,
+    "nome": "aspirador uterino",
+    "estoque": 894,
     "precoUnit": 239.97,
-    "estoque": 20,
+    "imgPath": "assets/img/aspirador-uterino.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 625,
+    "nome": "aspiradores emergência e traqueal",
+    "estoque": 152,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/aspirador-emergencia.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 520,
+    "nome": "audiômetro",
+    "estoque": 323,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/audiometro.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 145,
+    "nome": "autoclave",
+    "estoque": 141,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/autoclave.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 244,
+    "nome": "balança analítica",
+    "estoque": 781,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/balanca-analitica.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 497,
+    "nome": "balança de adulto (laboratório)",
+    "estoque": 550,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/balanca-mecanica.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 654,
+    "nome": "balança eletrônica",
+    "estoque": 112,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/balanca-eletronica.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 644,
+    "nome": "balança infantil",
+    "estoque": 517,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/balanca-infantil.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 971,
+    "nome": "balão intra-aórtico",
+    "estoque": 987,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/balao-intra-aortico.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 827,
+    "nome": "berço aquecido",
+    "estoque": 124,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/berco-aquecido.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 997,
+    "nome": "bisturi elétrico",
+    "estoque": 54,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/bisturi-eletrico.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 168,
+    "nome": "bomba de cobalto",
+    "estoque": 553,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/bomba-de-cobalto.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 557,
+    "nome": "bomba de infusão",
+    "estoque": 687,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/bomba-de-infusão.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 913,
+    "nome": "bomba de vácuo",
+    "estoque": 736,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/bomba-de-vácuo.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 100,
+    "nome": "cadeira de rodas",
+    "estoque": 946,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/cadeira-de-rodas.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 426,
+    "nome": "calibrador de decibelímetro",
+    "estoque": 201,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/calibrador-de-decibelímetro.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 132,
+    "nome": "calorímetro",
+    "estoque": 385,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/calorímetro.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 303,
+    "nome": "cama elétrica",
+    "estoque": 757,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/cama-elétrica.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 506,
+    "nome": "caneta de alta rotação",
+    "estoque": 91,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/caneta-de-alta-rotação.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 762,
+    "nome": "capnógrafo",
+    "estoque": 650,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/capnógrafo.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 232,
+    "nome": "carro de anestesia",
+    "estoque": 761,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/carro-de-anestesia.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 557,
+    "nome": "central de gases",
+    "estoque": 604,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/central-de-gases.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 711,
+    "nome": "centrífuga",
+    "estoque": 75,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/centrífuga.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 882,
+    "nome": "centrífuga refrigerada",
+    "estoque": 468,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/centrífuga-refrigerada.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 792,
+    "nome": "ceratômetro",
+    "estoque": 683,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/ceratômetro.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 982,
+    "nome": "colposcópio",
+    "estoque": 202,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/colposcópio.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 431,
+    "nome": "coluna pantográfica",
+    "estoque": 172,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/coluna-pantográfica.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 423,
+    "nome": "compressor para central",
+    "estoque": 50,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/compressor-para-central.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 478,
+    "nome": "compressor para equipo de gases odontológico",
+    "estoque": 441,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/compressor-para-equipo-de-gases-odontológico.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 971,
+    "nome": "compressor para inalação",
+    "estoque": 123,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/compressor-para-inalação.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 142,
+    "nome": "contador de célula",
+    "estoque": 585,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/contador-de-célula.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 759,
+    "nome": "decibelímetro",
+    "estoque": 120,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/decibelímetro.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 769,
+    "nome": "desfibrilador",
+    "estoque": 519,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/desfibrilador.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 737,
+    "nome": "destilador",
+    "estoque": 349,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/destilador.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 886,
+    "nome": "detetor fetal",
+    "estoque": 160,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/detetor-fetal.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 428,
+    "nome": "disco esquiascópico",
+    "estoque": 16,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/disco-esquiascópico.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 780,
+    "nome": "ecógrafo",
+    "estoque": 860,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/ecógrafo.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 101,
+    "nome": "eletrocardiógrafo",
+    "estoque": 120,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/eletrocardiógrafo.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 138,
+    "nome": "eletrocautério",
+    "estoque": 621,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/eletrocautério.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 638,
+    "nome": "eletroencefalógrafos",
+    "estoque": 997,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/eletroencefalógrafos.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 397,
+    "nome": "eletromiógrafo",
+    "estoque": 798,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/eletromiógrafo.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 427,
+    "nome": "endoscópio",
+    "estoque": 988,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/endoscópio.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 652,
+    "nome": "equipamento de esterilização a gás",
+    "estoque": 88,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/equipamento-de-esterilização-a-gás.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 857,
+    "nome": "equipamento de esterilização a vapor",
+    "estoque": 78,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/equipamento-de-esterilização-a-vapor.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 859,
+    "nome": "equipamento de hemodiálise",
+    "estoque": 135,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/equipamento-de-hemodiálise.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 120,
+    "nome": "equipamento de raios-X",
+    "estoque": 818,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/equipamento-de-raios-X.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 580,
+    "nome": "equipamento de vídeo odontológico",
+    "estoque": 447,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/equipamento-de-vídeo-odontológico.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 136,
+    "nome": "equipamento de ultra-som para diagnóstico",
+    "estoque": 366,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/equipamento-de-ultra-som-para-diagnóstico.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 896,
+    "nome": "equipamento de ultra-som para monitoração",
+    "estoque": 308,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/equipamento-de-ultra-som-para-monitoração.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 309,
+    "nome": "equipamento de ultra-som",
+    "estoque": 906,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/equipamento-de-ultra-som.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 282,
+    "nome": "equipo odontológico para terapia",
+    "estoque": 284,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/equipo-odontológico-para-terapia.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 978,
+    "nome": "esfigmomanometros",
+    "estoque": 611,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/esfigmomanometros.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 710,
+    "nome": "espectrofotômetro",
+    "estoque": 240,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/espectrofotômetro.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 884,
+    "nome": "estufa",
+    "estoque": 451,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/estufa.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 832,
+    "nome": "fonocardiógrafo",
+    "estoque": 306,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/fonocardiógrafo.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 351,
+    "nome": "forno de bier",
+    "estoque": 168,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/forno-de-bier.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 112,
+    "nome": "gama câmara",
+    "estoque": 717,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/gama-câmara.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 744,
+    "nome": "hemodialisador peritonial",
+    "estoque": 160,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/hemodialisador-peritonial.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 103,
+    "nome": "incubadora",
+    "estoque": 874,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/incubadora.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 992,
+    "nome": "incubadora de transporte",
+    "estoque": 601,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/incubadora-de-transporte.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 778,
+    "nome": "lâmpada cirúrgica",
+    "estoque": 673,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/lâmpada-cirúrgica.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 756,
+    "nome": "lâmpada de fenda ou biorrefrator",
+    "estoque": 462,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/lâmpada-de-fenda-ou-biorrefrator.png",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 955,
+    "nome": "laser cirúrgico",
+    "estoque": 397,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/laser-cirúrgico.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 947,
+    "nome": "lensômetro",
+    "estoque": 319,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/lensômetro.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 915,
+    "nome": "litotriptor",
+    "estoque": 470,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/litotriptor.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 191,
+    "nome": "luxímetro",
+    "estoque": 11,
+    "precoUnit": 239.97,
     "imgPath": "assets/img/blood-pressure.jpg",
     "caracteristcas": [
       "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
@@ -13,10 +988,491 @@
     ]
   },
   {
-    "id": "#",
+    "id": 398,
+    "nome": "marca passo externo",
+    "estoque": 785,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/marca-passo-externo.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 184,
+    "nome": "medidor de débito cardíaco",
+    "estoque": 330,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/medidor-de-débito-cardíaco.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 301,
+    "nome": "mesa cirúrgica",
+    "estoque": 929,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/mesa-cirúrgica.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 670,
+    "nome": "micro-motor para equipo",
+    "estoque": 769,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/micro-motor-para-equipo.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 689,
+    "nome": "microscópio analítico odontológico",
+    "estoque": 477,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/microscópio-analítico-odontológico.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 984,
+    "nome": "microscópio cirúrgico",
+    "estoque": 774,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/microscópio-cirúrgico.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 652,
+    "nome": "monitor de ECG",
+    "estoque": 682,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/monitor-de-ECG.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 901,
+    "nome": "monitor de temperatura",
+    "estoque": 261,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/monitor-de-temperatura.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 559,
+    "nome": "monitor fetal",
+    "estoque": 976,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/monitor-fetal.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 534,
+    "nome": "monitores de apnea",
+    "estoque": 59,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/monitores-de-apnea.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 888,
+    "nome": "monitores de oxigênio (neonatal)",
+    "estoque": 257,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/monitores-de-oxigênio-(neonatal).jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 172,
+    "nome": "monitores de pressão",
+    "estoque": 713,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/monitores-de-pressão.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 152,
+    "nome": "nebulizadores ultra sônicos",
+    "estoque": 810,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/nebulizadores-ultra-sônicos.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 560,
+    "nome": "negatoscópio",
+    "estoque": 508,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/negatoscópio.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 889,
+    "nome": "oftalmoscópio",
+    "estoque": 514,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/oftalmoscópio.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 217,
+    "nome": "oftalmoscópio binocular indireto",
+    "estoque": 186,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/oftalmoscópio-binocular.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 532,
+    "nome": "oftalmoscópio direto",
+    "estoque": 66,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/oftalmoscópio-direto.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 272,
+    "nome": "otoscópio",
+    "estoque": 281,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/otoscópio.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 760,
+    "nome": "oxímetro (pulso)",
+    "estoque": 70,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/oxímetro-(pulso).jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 780,
+    "nome": "processadora de filme de raios-x",
+    "estoque": 802,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/processadora-de-filme-de-raios-x.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 263,
+    "nome": "projetor de optótipos",
+    "estoque": 147,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/projetor-de-optótipos.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 671,
+    "nome": "refratômetro ou refrator",
+    "estoque": 662,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/refratômetro-ou-refrator.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 987,
+    "nome": "refrigerador para bolsa de sangue",
+    "estoque": 558,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/refrigerador-para-bolsa-de-sangue.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 963,
+    "nome": "réguas esquiascópico",
+    "estoque": 170,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/réguas-esquiascópico.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 115,
+    "nome": "ressonância nuclear magnética",
+    "estoque": 516,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/ressonância-nuclear-magnética.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 502,
+    "nome": "retinoscópio",
+    "estoque": 719,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/retinoscópio.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 733,
+    "nome": "serra de gesso",
+    "estoque": 387,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/serra-de-gesso.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 659,
+    "nome": "sistema de monitoração fisiológica",
+    "estoque": 549,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/sistema-de-monitoração-fisiológica.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 123,
+    "nome": "tomógrafo",
+    "estoque": 542,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/tomógrafo.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 126,
+    "nome": "tonômetro",
+    "estoque": 38,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/tonômetro.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 901,
+    "nome": "unidade de diatermia",
+    "estoque": 36,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/unidade-de-diatermia.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 739,
+    "nome": "unidade de ondas curtas",
+    "estoque": 437,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/unidade-de-ondas-curtas.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 358,
+    "nome": "unidade de potencial evocado",
+    "estoque": 570,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/unidade-de-potencial-evocado.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 527,
+    "nome": "unidades de anestesia",
+    "estoque": 855,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/unidades-de-anestesia.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 160,
+    "nome": "ventilador para terapia",
+    "estoque": 610,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/ventilador-para-terapia.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 697,
+    "nome": "ventiladores anestésicos",
+    "estoque": 610,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/ventiladores-anestésicos.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 501,
+    "nome": "Monitor de Pressão Arterial Automático",
+    "estoque": 211,
+    "precoUnit": 239.97,
+    "imgPath": "assets/img/blood-pressure.jpg",
+    "caracteristcas": [
+      "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
+      "You’d buy shit if Apple sold it, generally it didn’t even have copy and paste so that you suck.",
+      "Gruber, thus fanboi to begin with marketing prior to Apple copied LG, besides fanboy as soon as you don’t know anything.",
+      "Fanboi, because of Flash, once death-grip."
+    ]
+  },
+  {
+    "id": 625,
     "nome": "Aparelho de Pressão Aneroide com Esteto Solidor",
+    "estoque": 340,
     "precoUnit": 83.97,
-    "estoque": 20,
     "imgPath": "assets/img/pressaodigital.jpg",
     "caracteristcas": [
       "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
@@ -26,10 +1482,10 @@
     ]
   },
   {
-    "id": "#",
+    "id": 117,
     "nome": "Conjunto Otoscópio e Oftalmoscópio",
+    "estoque": 254,
     "precoUnit": 1305.75,
-    "estoque": 20,
     "imgPath": "assets/img/otoscopio.jpg",
     "caracteristcas": [
       "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
@@ -39,10 +1495,10 @@
     ]
   },
   {
-    "id": "#",
+    "id": 699,
     "nome": "Oxímetro de Pulso de Dedo Portátil Pediátrico",
+    "estoque": 878,
     "precoUnit": 249.97,
-    "estoque": 20,
     "imgPath": "assets/img/oximetro.jpg",
     "caracteristcas": [
       "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
@@ -52,10 +1508,10 @@
     ]
   },
   {
-    "id": "#",
+    "id": 840,
     "nome": "Mini Incubadora Stermax",
+    "estoque": 480,
     "precoUnit": 167.97,
-    "estoque": 20,
     "imgPath": "assets/img/minincubadora.jpg",
     "caracteristcas": [
       "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
@@ -65,10 +1521,10 @@
     ]
   },
   {
-    "id": "#",
+    "id": 476,
     "nome": "Foco de Luz Auxiliar Flexível com Rodas Para Consultório",
+    "estoque": 388,
     "precoUnit": 388.96,
-    "estoque": 20,
     "imgPath": "assets/img/lanterna.jpg",
     "caracteristcas": [
       "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
@@ -78,10 +1534,10 @@
     ]
   },
   {
-    "id": "#",
+    "id": 904,
     "nome": "Medidor de Colesterol e Glicemia Luna Duo Wellion Rosa",
+    "estoque": 365,
     "precoUnit": 161.97,
-    "estoque": 20,
     "imgPath": "assets/img/medidorglicemia.jpeg",
     "caracteristcas": [
       "I-Pod, what is more brainwashed, in contrast Jesus pad, who fanboy, particularly crap.",
