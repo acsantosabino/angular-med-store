@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "ng build --prod --base-href https://acsantosabino.github.io/angular-med-store/ && npx ngh --dir=dist/angular-med-store"
+    "deploy": "ng build --prod --base-href https://acsantosabino.github.io/angular-med-store/ && npx ngh --dir=dist/angular-med-store --message \"$(git log -1 --pretty=format:%s  $*)\""
   },
   "private": true,
   "dependencies": {
