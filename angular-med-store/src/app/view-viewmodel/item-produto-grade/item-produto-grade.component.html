@@ -2,7 +2,7 @@
 <div class="carrosselItemProduto">
   <img src="{{produto.imgPath}}" width="200px" height="200px" alt=""> <br>
   <h1> {{produto.nome}} </h1>
-  <span>R$ {{produto.precoUnit}}</span> <br>
+  <span>{{produto.precoUnit|currency:'BRL'}}</span> <br>
   <span>Estoque: {{produto.estoque}}</span> <br>
 </div>
 </a>
