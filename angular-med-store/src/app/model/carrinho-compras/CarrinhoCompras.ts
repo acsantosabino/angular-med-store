@@ -45,11 +45,6 @@ export class CarrinhoCompras {
         if (index >= 0) {
             this.listaCompras.splice(index, 1);
             this._listaComprasChanged.emit(this.listaCompras);
-        } else {
-            console.log('Item não encontrado');
-            console.log(this.listaCompras);
-            console.log(itemCompra);
-            console.log(index);
         }
     }
 

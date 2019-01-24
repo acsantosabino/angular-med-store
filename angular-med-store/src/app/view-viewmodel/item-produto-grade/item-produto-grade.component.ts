@@ -19,10 +19,10 @@ export class ItemProdutoGradeComponent implements OnInit {
       data: this.produto
   });
 
-  dialogRef.afterClosed().subscribe(result => {
-    console.log('The dialog was closed');
-    // this.producto = result;
-  });
+  // dialogRef.afterClosed().subscribe(result => {
+  //   console.log('The dialog was closed');
+  //   // this.producto = result;
+  // });
 }
 
   ngOnInit() {

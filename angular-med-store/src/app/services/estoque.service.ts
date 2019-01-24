@@ -9,7 +9,7 @@ export class EstoqueService {
   private listaProdutos: Produto[] = inventario;
 
   constructor() {
-    console.log('Inicializando a listagem');
+    
   }
 
   public getEstoque(): Produto[] {
