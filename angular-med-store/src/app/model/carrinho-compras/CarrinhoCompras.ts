@@ -9,7 +9,7 @@ export class CarrinhoCompras {
 
     readonly listaComprasChanged = this._listaComprasChanged.asObservable();
 
-    constructor(private estoque: EstoqueService){
+    constructor(private estoque: EstoqueService) {
 
     }
 
@@ -45,11 +45,6 @@ export class CarrinhoCompras {
         if (index >= 0) {
             this.listaCompras.splice(index, 1);
             this._listaComprasChanged.emit(this.listaCompras);
-        } else {
-            console.log('Item não encontrado');
-            console.log(this.listaCompras);
-            console.log(itemCompra);
-            console.log(index);
         }
     }
 
@@ -58,8 +53,8 @@ export class CarrinhoCompras {
         this._listaComprasChanged.emit(this.listaCompras);
     }
 
-    finalizarCompra(){
-        let listaCompraFinalizada = this.listaCompras;
+    finalizarCompra() {
+        const listaCompraFinalizada = this.listaCompras;
         this.estoque.abaterEstoque(listaCompraFinalizada);
         this.setListaCompras([]);
     }
