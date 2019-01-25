@@ -8,29 +8,34 @@ import { Produto, Compra } from '../model/index.js';
 export class EstoqueService {
 
   private listaProdutos: Produto[] = inventario;
-  
+
   constructor() {
-    
+
   }
 
   public getEstoque(): Produto[] {
     return this.listaProdutos;
   }
 
+  public getProdutoDeCompra( compra: Compra): Produto {
+    const index: number = this.listaProdutos.findIndex(this.encontrarProdutoNaListaProduto, compra.id);
+    return this.listaProdutos[index];
+  }
+
   public abaterEstoque(listaCompra: Compra[]) {
     listaCompra.forEach(compra => {
-      this.abaterProduto(compra.nome, compra.quantidade);
+      this.abaterProduto(compra.id, compra.quantidade);
     });
   }
 
-  private abaterProduto(nome: String, quantidade: number) {
-    const index: number = this.listaProdutos.findIndex(this.encontrarProdutoNaListaProduto, nome);
+  private abaterProduto(id: number, quantidade: number) {
+    const index: number = this.listaProdutos.findIndex(this.encontrarProdutoNaListaProduto, id);
     if (index >= 0) {
       this.listaProdutos[index].estoque -= quantidade;
     }
   }
 
   private encontrarProdutoNaListaProduto(elemento, index, array) {
-    return this === elemento.nome;
+    return this === elemento.id;
   }
 }

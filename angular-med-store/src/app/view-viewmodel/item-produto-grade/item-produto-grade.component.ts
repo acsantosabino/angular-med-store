@@ -1,6 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { MatDialog } from '@angular/material';
-import { ProdutoDialogComponent } from 'src/app/view-viewmodel/dialog-data/dialog-data.component';
+import { ProdutoDialogComponent } from '../dialog-data/dialog-data.component';
 import { Produto } from 'src/app/model';
 
 @Component({
