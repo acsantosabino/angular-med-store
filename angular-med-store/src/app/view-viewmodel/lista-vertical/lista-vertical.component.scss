@@ -12,11 +12,16 @@ picture {
     padding: 5px;
 }
 
-a {
-    display: flex
+a, a::after, a:default{
+    display: flex;
+    text-decoration: none;
+    color: #333;
 }
-
-p {
+a:hover{
+    
+}
+a h1{
+    font-size: 1em;
     align-self: center;
 }
 
@@ -37,4 +42,14 @@ p {
 
 table {
     min-width: 900px;
+}
+
+.produto-link:hover{
+    box-shadow: 3px 3px 3px 3px mat-color($mat-indigo, $primary-dark);
+    color: mat-color($my-app-primary);
+    background-color: mat-color($mat-indigo, $primary-light);
+    
+    h1{
+        text-decoration: underline;
+    }
 }

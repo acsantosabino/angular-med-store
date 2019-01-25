@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { CarrinhoCompras, Compra } from 'src/app/model';
+import { CarrinhoCompras, Compra } from '../../model';
 import { Subscription } from 'rxjs';
 import { Router } from '@angular/router';
 

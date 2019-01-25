@@ -33,11 +33,13 @@ export class CarrinhoCompras {
     }
 
     addItem(itemCompra: Compra) {
-        this.listaCompras = [
-            ...this.listaCompras,
-            itemCompra
-        ];
-        this._listaComprasChanged.emit(this.listaCompras);
+        const index: number = this.listaCompras.findIndex(this.encontrarItemNaListaCompras, itemCompra.id);
+        if (index >= 0) {
+            this.updateItem(itemCompra, index);
+        } else {
+            this.listaCompras.push(itemCompra);
+            this._listaComprasChanged.emit(this.listaCompras);
+        }
     }
 
     removeItem(itemCompra: Compra) {
@@ -58,4 +60,8 @@ export class CarrinhoCompras {
         this.estoque.abaterEstoque(listaCompraFinalizada);
         this.setListaCompras([]);
     }
+
+  private encontrarItemNaListaCompras(elemento, index, array) {
+    return this === elemento.id;
+  }
 }

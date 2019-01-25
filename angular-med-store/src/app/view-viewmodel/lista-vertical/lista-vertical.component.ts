@@ -1,8 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { CarrinhoCompras, Compra } from 'src/app/model';
-import { MatTableDataSource } from '@angular/material';
+import { MatTableDataSource, MatDialog } from '@angular/material';
 import { Subscription } from 'rxjs';
 import { dashCaseToCamelCase } from '@angular/compiler/src/util';
+import { EstoqueService } from 'src/app/services/estoque.service';
+import { ProdutoDialogComponent } from '../dialog-data/dialog-data.component';
 
 @Component({
   selector: 'app-lista-vertical',
@@ -20,7 +22,9 @@ export class ListaVerticalComponent implements OnInit {
     'Quantidade',
     'Total'];
 
-  constructor(private carrinho: CarrinhoCompras) {
+  constructor(private carrinho: CarrinhoCompras,
+    private estoque: EstoqueService,
+    public dialog: MatDialog ) {
     this.dataSource = new MatTableDataSource(this.carrinho.getListaCompras());
 
     this._listaComprasChangedSubscription =
@@ -49,5 +53,11 @@ export class ListaVerticalComponent implements OnInit {
     item.quantidade = qnt;
     item.total = item.precoUnit * qnt;
     this.carrinho.updateItem(item, index);
+  }
+  openDialog(item: Compra): void {
+    const produto = this.estoque.getProdutoDeCompra(item);
+    const dialogRef = this.dialog.open(ProdutoDialogComponent, {
+      data: produto
+    });
   }
 }
