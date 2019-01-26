@@ -38,3 +38,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 - Install @angular/animations with `npm install @angular/animations`
 - Install @angular/cdk with `npm install @angular/cdk`
 - Install @angular/material with `npm install @angular/material`
+- Install @angular-devkit/build-angular `npm install --save-dev @angular-devkit/build-angular`
