@@ -50,9 +50,13 @@ export class ListaVerticalComponent implements OnInit {
 
   changeItemQnt(item: Compra, qnt: number) {
     const index = this.dataSource.data.indexOf(item);
-    item.quantidade = qnt;
-    item.total = item.precoUnit * qnt;
-    this.carrinho.updateItem(item, index);
+    if (qnt === 0) {
+      this.removeItem(item);
+    } else {
+      item.quantidade = qnt;
+      item.total = item.precoUnit * qnt;
+      this.carrinho.updateItem(item, index);
+    }
   }
   openDialog(item: Compra): void {
     const produto = this.estoque.getProdutoDeCompra(item);
