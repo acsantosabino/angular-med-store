@@ -40,7 +40,7 @@ export class ListaVerticalComponent implements OnInit {
   }
 
   estoqueQnt(estoque: number) {
-    const lista = Array.from(new Array(estoque), (val, index) => index + 1);
+    const lista = Array.from(new Array(estoque), (val, index) => index);
     return lista;
   }
 
