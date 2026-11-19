@@ -1,12 +1,12 @@
-import { Component, OnInit } from '@angular/core';
-import {PageEvent} from '@angular/material';
-import { Produto } from './../../model/produto/Produto';
-import { EstoqueService } from 'src/app/services/estoque.service';
+import { Component, OnInit } from "@angular/core";
+import { MatGridList, PageEvent } from "@angular/material";
+import { EstoqueService } from "src/app/services/estoque.service";
+import { Produto } from "./../../model/produto/Produto";
 
 @Component({
-  selector: 'app-carrossel-produtos',
-  templateUrl: './carrossel-produtos.component.html',
-  styleUrls: ['./carrossel-produtos.component.scss']
+  selector: "app-carrossel-produtos",
+  templateUrl: "./carrossel-produtos.component.html",
+  styleUrls: ["./carrossel-produtos.component.scss"],
 })
 export class CarrosselProdutosComponent implements OnInit {
   inventario: Produto[];
@@ -18,31 +18,49 @@ export class CarrosselProdutosComponent implements OnInit {
   constructor(estoque: EstoqueService) {
     this.inventario = estoque.getEstoque();
     this.length = this.inventario.length;
-   }
+  }
 
-     // MatPaginator Output
+  // MatPaginator Output
   pageEvent: PageEvent;
+  matGridList = MatGridList;
 
   setPageSizeOptions(setPageSizeOptionsInput: string) {
-    this.pageSizeOptions = setPageSizeOptionsInput.split(',').map(str => +str);
+    this.pageSizeOptions = setPageSizeOptionsInput
+      .split(",")
+      .map((str) => +str);
   }
 
   ngOnInit() {
-    this.produtosExibidos = this.constroiListaExibicao( this.inventario, 0, this.pageSize );
+    this.produtosExibidos = this.constroiListaExibicao(
+      this.inventario,
+      0,
+      this.pageSize
+    );
   }
 
   mudarPagina(evento) {
+    this.pageSize = evento.pageSize;
     const indiceInicio: number = evento.pageIndex * evento.pageSize;
-    this.produtosExibidos =
-      this.constroiListaExibicao( this.inventario, indiceInicio, evento.pageSize );
+    this.produtosExibidos = this.constroiListaExibicao(
+      this.inventario,
+      indiceInicio,
+      evento.pageSize
+    );
   }
 
-  constroiListaExibicao(listaCheia: Produto[], indiceInicio: number, quantidade: number) {
+  constroiListaExibicao(
+    listaCheia: Produto[],
+    indiceInicio: number,
+    quantidade: number
+  ) {
     const listaRetorno: Produto[] = new Array();
     let indice: number = indiceInicio;
-    const indiceMaximo: number = (listaCheia.length >= indiceInicio + quantidade) ? indiceInicio + quantidade - 1 : listaCheia.length - 1;
+    const indiceMaximo: number =
+      listaCheia.length >= indiceInicio + quantidade
+        ? indiceInicio + quantidade - 1
+        : listaCheia.length - 1;
     for (indice; indice <= indiceMaximo; indice++) {
-      listaRetorno.push( listaCheia[indice] );
+      listaRetorno.push(listaCheia[indice]);
     }
     return listaRetorno;
   }

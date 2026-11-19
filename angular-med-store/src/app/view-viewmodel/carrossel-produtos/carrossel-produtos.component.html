@@ -1,12 +1,14 @@
-  <div>
-    <div class="carrossel" *ngFor="let produto of produtosExibidos">
-        <app-item-produto-grade [produto]="produto"></app-item-produto-grade>
-    </div>
-  </div>
-  <mat-paginator [length]="length"
-                [pageSize]="pageSize"
-                [pageIndex]=0
-                [pageSizeOptions]="pageSizeOptions"
-                (page)="mudarPagina($event)">
-  </mat-paginator>
-  <!-- <app-dialog-data></app-dialog-data> -->
+<mat-grid-list cols="{{ pageSize }}" rowHeight="1:1">
+  <mat-grid-tile class="carrossel" *ngFor="let produto of produtosExibidos">
+    <app-item-produto-grade [produto]="produto"></app-item-produto-grade>
+  </mat-grid-tile>
+</mat-grid-list>
+<mat-paginator
+  [length]="length"
+  [pageSize]="pageSize"
+  [pageIndex]="0"
+  [pageSizeOptions]="pageSizeOptions"
+  (page)="mudarPagina($event)"
+>
+</mat-paginator>
+<!-- <app-dialog-data></app-dialog-data> -->
